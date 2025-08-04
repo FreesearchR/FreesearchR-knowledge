@@ -1,6 +1,6 @@
 Package: FreesearchR-knowledge
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 2025.8.1
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
@@ -14,4 +14,5 @@ Suggests:
     usethis,
     ropensci-review-tools/babelquarto
 Imports: 
-    autonewsmd
+    autonewsmd,
+    git2r
