@@ -15,9 +15,8 @@
 babelquarto::render_book(file.path(".", "book"),)
 
 
-an <- autonewsmd$new(repo_name = "FreesearchR-knowledge")
+{an <- autonewsmd$new(repo_name = "FreesearchR-knowledge")
 an$generate()
-
-an$write(force = TRUE)
+an$write(force = TRUE)}
 
 
