@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "book",
+    "section": "",
+    "text": "Preface\nThis book will form the knowledge data base that goes with the FreesearchR project. This will contain a basic introduction to data science and data analysis as a foundation for starting to use the FreesearchR app.\nKey motivations for this project are to\n\nlower the barrier to do data analysis\nempower clinicians to perform data analysis on own data locally\nprovide learners with basic knowledge to make informed decisions\n\nThe main audience for this project is clinicians, researchers and students with a need for basic analytical tools and knowledge to start interpreting clinical data. The methods used are general and can be used beyond this main audience.\nThis knowledge database will mainly consist of instructions and descriptions for the FreesearchR app as well as a collection of links and references for recommended further reading and learning.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

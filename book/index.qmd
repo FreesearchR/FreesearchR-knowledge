@@ -1,0 +1,15 @@
+# Preface {.unnumbered}
+
+This book will form the knowledge data base that goes with the FreesearchR project. This will contain a basic introduction to data science and data analysis as a foundation for starting to use the [FreesearchR app](app.freesearchr.org).
+
+Key motivations for this project are to
+
+- lower the barrier to do data analysis
+
+- empower clinicians to perform data analysis on own data locally
+
+- provide learners with basic knowledge to make informed decisions
+
+The main audience for this project is clinicians, researchers and students with a need for basic analytical tools and knowledge to start interpreting clinical data. The methods used are general and can be used beyond this main audience.
+
+This knowledge database will mainly consist of instructions and descriptions for the [FreesearchR app](app.freesearchr.org) as well as a collection of links and references for recommended further reading and learning.

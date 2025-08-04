@@ -1,0 +1,41 @@
+project:
+  type: book
+
+book:
+  site-url: https://knowledge.freesearchr.org
+  title: "book"
+  author: "Andreas Gammelgaard Damsbo"
+  date: "8/4/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+
+babelquarto:
+  languagelinks: sidebar
+  languagecodes:
+  - name: da
+    text: "Læs på dansk"
+  - name: sw
+    text: "Soma kwa kiswahili"
+  - name: en
+    text: "Read in English"
+  mainlanguage: 'en'
+  languages: ['da', 'sw']
+title-da: FreesearchR viden
+title-sw: FreesearchR Maarifa
+description-da: Introduktion til dataanalyse med FreesearchR
+description-sw: Utangulizi wa uchambuzi wa data na FreesearchR
+author-da: Andreas Gammelgaard Damsbo
+author-sw: Jutta Adelin JØrgensen
+lang: en
+
