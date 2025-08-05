@@ -1,0 +1,10 @@
+---
+title: "Further learning"
+format: html
+---
+
+## Where to go next
+
+The FreesearchR project is not affiliated with the listed references below unless stated.
+
+[Exercism](https://exercism.org/) is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don't need to download anything. You can track your progress and get hints.

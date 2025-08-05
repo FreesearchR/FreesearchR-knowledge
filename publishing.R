@@ -20,3 +20,7 @@ an$generate()
 an$write(force = TRUE)}
 
 
+## On custom translations
+## 
+## See: https://quarto.org/docs/authoring/language.html#custom-translations
+## And: https://docs.ropensci.org/babelquarto/articles/configuration.html

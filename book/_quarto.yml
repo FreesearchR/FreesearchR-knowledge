@@ -8,8 +8,12 @@ book:
   date: "8/4/2025"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: "FreesearchR app"
+      chapters: 
+        - app.qmd
+    - part: "Further learning"
+      chapters: 
+        - further.qmd
     - references.qmd
 
 bibliography: references.bib

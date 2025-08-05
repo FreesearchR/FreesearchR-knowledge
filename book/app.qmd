@@ -1,0 +1,10 @@
+---
+title: "FreesearchR app intro"
+format: html
+---
+
+## The FreesearchR app
+
+The FreesearchR app is published as an R-package for easy installation in a local R-environment and is also accessible [directly online in your web browser](https://app.freesearchr.org/).
+
+Currently, the app introduction lives in the package documentation and [is accessible here](https://docs.freesearchr.org).

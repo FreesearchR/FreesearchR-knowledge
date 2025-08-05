@@ -10,33 +10,25 @@
     ]
   },
   {
-    "objectID": "intro.da.html",
-    "href": "intro.da.html",
-    "title": "1  Introduction",
+    "objectID": "app.da.html",
+    "href": "app.da.html",
+    "title": "1  FreesearchR app intro",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming”. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 The FreesearchR app\nThe FreesearchR app is published as an R-package for easy installation in a local R-environment and is also accessible directly online in your web browser.\nCurrently, the app introduction lives in the package documentation and is accessible here.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "FreesearchR app",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
   {
-    "objectID": "summary.da.html",
-    "href": "summary.da.html",
-    "title": "2  Summary",
+    "objectID": "further.da.html",
+    "href": "further.da.html",
+    "title": "2  Further learning",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "2.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.da.html",
-    "href": "references.da.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
+      "Further learning",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Further learning</span>"
     ]
   }
 ]
