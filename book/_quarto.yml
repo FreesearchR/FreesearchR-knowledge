@@ -2,8 +2,9 @@ project:
   type: book
 
 book:
-  site-url: https://knowledge.freesearchr.org
-  title: "book"
+  # site-url: https://knowledge.freesearchr.org
+  site-url: https://freesearchr.github.io/FreesearchR-knowledge/
+  title: "FreesearchR knowledge base"
   author: "Andreas Gammelgaard Damsbo"
   date: "8/4/2025"
   chapters:
