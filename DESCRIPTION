@@ -1,9 +1,9 @@
 Package: FreesearchR-knowledge
-Title: What the Package Does (One Line, Title Case)
-Version: 2025.8.1
+Title: The FreesearchR knowledge data base
+Version: 25.9.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Andreas Gammelgaard", "Damsbo", , "agdamsbo", role = c("aut", "cre"))
+Description: A collection of instructions for FreesearchR app, suggestions on data analysis and advices for further learning.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -16,3 +16,4 @@ Suggests:
 Imports: 
     autonewsmd,
     git2r
+RoxygenNote: 7.0.0

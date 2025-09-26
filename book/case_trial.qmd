@@ -1,0 +1,11 @@
+---
+title: "Randomised clinical trial in stroke"
+format: html
+bibliography: references.bib
+---
+
+## A clinical trial on neuroprotection in stroke
+
+This case study will be based on the study "Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)".[@kraglund2018]
+
+We will not be able to include all data from this trial, but key tables and figures based on anonymised data from the trial included in the ***FreesearchR*** app will be used.

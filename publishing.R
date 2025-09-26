@@ -12,9 +12,11 @@
 # )
 
 ## Rendering the multilanguage book
-babelquarto::render_book(file.path(".", "book"),)
+# pak::pak("ropensci-review-tools/babelquarto")
+babelquarto::render_book(file.path(".", "book"),site_url = "https://knowledge.freesearchr.org/")
 
 
+## Generating NEWS.md file
 {an <- autonewsmd$new(repo_name = "FreesearchR-knowledge")
 an$generate()
 an$write(force = TRUE)}

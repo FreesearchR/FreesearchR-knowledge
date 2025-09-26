@@ -12,6 +12,10 @@ book:
     - part: "FreesearchR app"
       chapters: 
         - app.qmd
+    - part: "Case studies"
+      chapters: 
+        - case_mental_health_stroke.qmd
+        - case_trial.qmd
     - part: "Further learning"
       chapters: 
         - further.qmd
@@ -41,6 +45,6 @@ title-sw: FreesearchR Maarifa
 description-da: Introduktion til dataanalyse med FreesearchR
 description-sw: Utangulizi wa uchambuzi wa data na FreesearchR
 author-da: Andreas Gammelgaard Damsbo
-author-sw: Jutta Adelin JØrgensen
+author-sw: Jutta Adelin Jørgensen
 lang: en
 

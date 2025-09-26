@@ -21,14 +21,68 @@
     ]
   },
   {
+    "objectID": "case_mental_health_stroke.da.html",
+    "href": "case_mental_health_stroke.da.html",
+    "title": "2  Mental health after stroke",
+    "section": "",
+    "text": "2.1 Mental health after stroke\nFor the following case study on using the FreesearchR tool, the following article will be used as an example: Damsbo m.fl. (2020).\nThis article includes a table of baseline characteristics, a regression table and an Euler plot of overlapping markers of poor well-being after stroke. Based on a anonymised dataset, the basics of each of these elements will be recreated in the following.",
+    "crumbs": [
+      "Case studies",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mental health after stroke</span>"
+    ]
+  },
+  {
+    "objectID": "case_mental_health_stroke.da.html#mental-health-after-stroke",
+    "href": "case_mental_health_stroke.da.html#mental-health-after-stroke",
+    "title": "2  Mental health after stroke",
+    "section": "",
+    "text": "Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, og Janne Kaergaard Mortensen. 2020. “Predictors for Wellbeing and Characteristics of Mental Health After Stroke”. Journal of Affective Disorders 264 (marts): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.",
+    "crumbs": [
+      "Case studies",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mental health after stroke</span>"
+    ]
+  },
+  {
+    "objectID": "case_trial.da.html",
+    "href": "case_trial.da.html",
+    "title": "3  Randomised clinical trial in stroke",
+    "section": "",
+    "text": "3.1 A clinical trial on neuroprotection in stroke\nThis case study will be based on the study “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)”.(Kraglund m.fl. 2018)\nWe will not be able to include all data from this trial, but key tables and figures based on anonymised data from the trial included in the FreesearchR app will be used.",
+    "crumbs": [
+      "Case studies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Randomised clinical trial in stroke</span>"
+    ]
+  },
+  {
+    "objectID": "case_trial.da.html#a-clinical-trial-on-neuroprotection-in-stroke",
+    "href": "case_trial.da.html#a-clinical-trial-on-neuroprotection-in-stroke",
+    "title": "3  Randomised clinical trial in stroke",
+    "section": "",
+    "text": "Kraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas Gammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle Klingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske Johnsen, og Grethe Andersen. 2018. “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)”. Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.",
+    "crumbs": [
+      "Case studies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Randomised clinical trial in stroke</span>"
+    ]
+  },
+  {
     "objectID": "further.da.html",
     "href": "further.da.html",
-    "title": "2  Further learning",
+    "title": "4  Further learning",
     "section": "",
-    "text": "2.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.",
+    "text": "4.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.",
     "crumbs": [
       "Further learning",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Further learning</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Further learning</span>"
+    ]
+  },
+  {
+    "objectID": "references.da.html",
+    "href": "references.da.html",
+    "title": "References",
+    "section": "",
+    "text": "Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette\nNørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne\nKaergaard Mortensen. 2020. “Predictors for Wellbeing and\nCharacteristics of Mental Health After Stroke.” Journal of\nAffective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas\nGammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle\nKlingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske\nJohnsen, and Grethe Andersen. 2018. “Neuroregeneration and\nVascular Protection by Citalopram in Acute Ischemic Stroke\n(TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
