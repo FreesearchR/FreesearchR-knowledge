@@ -17,6 +17,8 @@ babelquarto::render_book(file.path(".", "book"),site_url = "https://knowledge.fr
 
 
 ## Generating NEWS.md file
+# pak::pak("autonewsmd")
+library(autonewsmd)
 {an <- autonewsmd$new(repo_name = "FreesearchR-knowledge")
 an$generate()
 an$write(force = TRUE)}
