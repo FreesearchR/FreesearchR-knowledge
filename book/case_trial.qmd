@@ -8,4 +8,69 @@ bibliography: references.bib
 
 This case study will be based on the study "Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)".[@kraglund2018]
 
-We will not be able to include all data from this trial, but key tables and figures based on anonymised data from the trial included in the ***FreesearchR*** app will be used.
+We will not be able to include all data from this trial, but key tables and figures based on annonymised data from the trial included in the ***FreesearchR*** app will be used. These data are published for educational purposes in the "stRoke" package, which also includes a few tools for clinical stroke trials.[@damsbo2023]
+
+The TALOS trial was a randomised trial, with a predefined analysis plan and a published protocol.[@kraglund2015] As the trial was randomised, the main analyses where
+
+### Load the data
+
+Start of by launching the [***FreesearchR*** app (click this link)](https://app.freesearchr.org).
+
+1.  Go to the "Get started" tab,
+2.  under "Choose your data source", select "Local or sample data",
+3.  then under "Select data source", select "stRoke", and
+4.  then under "Select a dataset", select "trial".
+
+This should load the data, and you can press the "Quick overview" to preview the data classes and missing values.
+
+In the section "Select variables for final import", you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.
+
+### Baseline characteristics {#trial_baseline}
+
+Having loaded the relevant dataset, we will go straight to generating a classic table for overview of the variables, typically what is included in papers as a Table 1.
+
+1.  Click the "Evaluate" panel and
+2.  select the "Characteristics" sub-panel in the dropdown.
+
+This is the section, where the characteristics panel is generated.
+
+In the sidebar
+
+1.  Under "Select variable to stratify baseline", select "active" to stratify by active trial treatment, and
+2.  then click "Evaluate", wait a second and have a look at the table generated.
+
+The table can be exported in a document format.
+
+1.  Go to the "Download" panel at the top,
+2.  under "Report", choose the desired document format (MS Word or LibreOffice), and
+3.  click "Download report".
+
+This will generate the report and it will get downloaded to your device. Find it in your downloads folder.
+
+### Visualise the classic outcome
+
+The modified Rankin Scale (mRS) score has been used as the main outcome for a large number stroke trials.[@tissuep1995; @berkhemer2015; @blauenfeldt2023] The TALOS trial also used the mRS, but did not include a graph to show the distribution. Let's create that graph now then:
+
+1.  Go to "Visuals", and
+2.  select "mrs_6" as the "Response variable" to see plotting options, and
+3.  select "Stacked horizontal bars" and
+4.  select "active" as the secondary variable to stratify by trial treatment, then
+5.  click "Plot" to view the results.
+
+To export the plot
+
+1.  Click the "Download" sidebar section to unfold the download options,
+2.  specify the details and select file format, and
+3.  click "Download".
+
+Open the plot locally to verify the results.
+
+### Now its time for experimentation
+
+The above instructions are intended to introduce some of the functionality of the FreesearchR app. Please review the sections to experiment to explore the functions, but also to explore the data you are using. Here are some questions to think about:
+
+1.  What is the median age for men? And for women?
+2.  How is the distribution of of mRS score at 1 month?
+3.  How is the distribution of mRS score at 6 months grouped by sex?
+4.  In the trial introducing IVT treatment[@tissuep1995], several outcome scales were used and binned. How would this be done with the FreesearchR app?
+5.  ...

@@ -14,8 +14,8 @@ book:
         - app.qmd
     - part: "Case studies"
       chapters: 
-        - case_mental_health_stroke.qmd
         - case_trial.qmd
+        - case_overlapping_measures.qmd
     - part: "Further learning"
       chapters: 
         - further.qmd

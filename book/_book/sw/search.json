@@ -21,47 +21,47 @@
     ]
   },
   {
-    "objectID": "case_mental_health_stroke.sw.html",
-    "href": "case_mental_health_stroke.sw.html",
-    "title": "2  Mental health after stroke",
-    "section": "",
-    "text": "2.1 Mental health after stroke\nFor the following case study on using the FreesearchR tool, the following article will be used as an example: Damsbo et al. (2020).\nThis article includes a table of baseline characteristics, a regression table and an Euler plot of overlapping markers of poor well-being after stroke. Based on a anonymised dataset, the basics of each of these elements will be recreated in the following.",
-    "crumbs": [
-      "Case studies",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mental health after stroke</span>"
-    ]
-  },
-  {
-    "objectID": "case_mental_health_stroke.sw.html#mental-health-after-stroke",
-    "href": "case_mental_health_stroke.sw.html#mental-health-after-stroke",
-    "title": "2  Mental health after stroke",
-    "section": "",
-    "text": "Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne Kaergaard Mortensen. 2020. “Predictors for Wellbeing and Characteristics of Mental Health After Stroke.” Journal of Affective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.",
-    "crumbs": [
-      "Case studies",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mental health after stroke</span>"
-    ]
-  },
-  {
     "objectID": "case_trial.sw.html",
     "href": "case_trial.sw.html",
-    "title": "3  Randomised clinical trial in stroke",
+    "title": "2  Randomised clinical trial in stroke",
     "section": "",
-    "text": "3.1 A clinical trial on neuroprotection in stroke\nThis case study will be based on the study “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)”.(Kraglund et al. 2018)\nWe will not be able to include all data from this trial, but key tables and figures based on anonymised data from the trial included in the FreesearchR app will be used.",
+    "text": "2.1 A clinical trial on neuroprotection in stroke\nThis case study will be based on the study “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)”.(K. L. Kraglund et al. 2018)\nWe will not be able to include all data from this trial, but key tables and figures based on annonymised data from the trial included in the FreesearchR app will be used. These data are published for educational purposes in the “stRoke” package, which also includes a few tools for clinical stroke trials.(Damsbo 2023)\nThe TALOS trial was a randomised trial, with a predefined analysis plan and a published protocol.(K. Kraglund et al. 2015) As the trial was randomised, the main analyses where",
     "crumbs": [
       "Case studies",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Randomised clinical trial in stroke</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Randomised clinical trial in stroke</span>"
     ]
   },
   {
     "objectID": "case_trial.sw.html#a-clinical-trial-on-neuroprotection-in-stroke",
     "href": "case_trial.sw.html#a-clinical-trial-on-neuroprotection-in-stroke",
-    "title": "3  Randomised clinical trial in stroke",
+    "title": "2  Randomised clinical trial in stroke",
     "section": "",
-    "text": "Kraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas Gammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle Klingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske Johnsen, and Grethe Andersen. 2018. “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.",
+    "text": "2.1.1 Load the data\nStart of by launching the FreesearchR app (click this link).\n\nGo to the “Get started” tab,\nunder “Choose your data source”, select “Local or sample data”,\nthen under “Select data source”, select “stRoke”, and\nthen under “Select a dataset”, select “trial”.\n\nThis should load the data, and you can press the “Quick overview” to preview the data classes and missing values.\nIn the section “Select variables for final import”, you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.\n\n\n2.1.2 Baseline characteristics\nHaving loaded the relevant dataset, we will go straight to generating a classic table for overview of the variables, typically what is included in papers as a Table 1.\n\nClick the “Evaluate” panel and\nselect the “Characteristics” sub-panel in the dropdown.\n\nThis is the section, where the characteristics panel is generated.\nIn the sidebar\n\nUnder “Select variable to stratify baseline”, select “active” to stratify by active trial treatment, and\nthen click “Evaluate”, wait a second and have a look at the table generated.\n\nThe table can be exported in a document format.\n\nGo to the “Download” panel at the top,\nunder “Report”, choose the desired document format (MS Word or LibreOffice), and\nclick “Download report”.\n\nThis will generate the report and it will get downloaded to your device. Find it in your downloads folder.\n\n\n2.1.3 Visualise the classic outcome\nThe modified Rankin Scale (mRS) score has been used as the main outcome for a large number stroke trials.(“Tissue Plasminogen Activator for Acute Ischemic Stroke” 1995; Berkhemer et al. 2015; Blauenfeldt et al. 2023) The TALOS trial also used the mRS, but did not include a graph to show the distribution. Let’s create that graph now then:\n\nGo to “Visuals”, and\nselect “mrs_6” as the “Response variable” to see plotting options, and\nselect “Stacked horizontal bars” and\nselect “active” as the secondary variable to stratify by trial treatment, then\nclick “Plot” to view the results.\n\nTo export the plot\n\nClick the “Download” sidebar section to unfold the download options,\nspecify the details and select file format, and\nclick “Download”.\n\nOpen the plot locally to verify the results.\n\n\n2.1.4 Now its time for experimentation\nThe above instructions are intended to introduce some of the functionality of the FreesearchR app. Please review the sections to experiment to explore the functions, but also to explore the data you are using. Here are some questions to think about:\n\nWhat is the median age for men? And for women?\nHow is the distribution of of mRS score at 1 month?\nHow is the distribution of mRS score at 6 months grouped by sex?\nIn the trial introducing IVT treatment(“Tissue Plasminogen Activator for Acute Ischemic Stroke” 1995), several outcome scales were used and binned. How would this be done with the FreesearchR app?\n…\n\n\n\n\n\nBerkhemer, Olvert A., Puck S. S. Fransen, Debbie Beumer, Lucie A. van den Berg, Hester F. Lingsma, Albert J. Yoo, Wouter J. Schonewille, et al. 2015. “A Randomized Trial of Intraarterial Treatment for Acute Ischemic Stroke.” New England Journal of Medicine 372 (1): 11–20. https://doi.org/10.1056/NEJMoa1411587.\n\n\nBlauenfeldt, Rolf Ankerlund, Niels Hjort, Jan Brink Valentin, Anne-Mette Homburg, Boris Modrau, Birgitte Forsom Sandal, Martin Faurholdt Gude, et al. 2023. “Remote Ischemic Conditioning for Acute Stroke.” JAMA 330 (13): 1236. https://doi.org/10.1001/jama.2023.16893.\n\n\nDamsbo, Andreas Gammelgaard. 2023. Agdamsbo/stRoke: stRoke 23.6.3. Zenodo. https://doi.org/10.5281/ZENODO.8013980.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas Gammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle Klingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske Johnsen, and Grethe Andersen. 2018. “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.\n\n\nKraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen, and Grethe Andersen. 2015. “TALOS: A Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial to Test the Effects of Citalopram in Patients with Acute Stroke.” International Journal of Stroke 10 (6): 985–87. https://doi.org/10.1111/ijs.12485.\n\n\n“Tissue Plasminogen Activator for Acute Ischemic Stroke.” 1995. New England Journal of Medicine 333 (24): 1581–88. https://doi.org/10.1056/nejm199512143332401.",
     "crumbs": [
       "Case studies",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Randomised clinical trial in stroke</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Randomised clinical trial in stroke</span>"
+    ]
+  },
+  {
+    "objectID": "case_overlapping_measures.sw.html",
+    "href": "case_overlapping_measures.sw.html",
+    "title": "3  Overlapping measures",
+    "section": "",
+    "text": "3.1 Overlapping measures\nFor the following case study on using the FreesearchR tool, the following article will be used as an example: Damsbo et al. (2020).\nThis article includes a table of baseline characteristics, a regression table and an Euler plot of overlapping markers of poor mental health after stroke. Based on an anonymised dataset, the basics of each of these elements will be recreated in the following.",
+    "crumbs": [
+      "Case studies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Overlapping measures</span>"
+    ]
+  },
+  {
+    "objectID": "case_overlapping_measures.sw.html#overlapping-measures",
+    "href": "case_overlapping_measures.sw.html#overlapping-measures",
+    "title": "3  Overlapping measures",
+    "section": "",
+    "text": "3.1.1 The Euler plot\nThe Euler plot is an area-accurate plot of overlapping features. This can be used to visualise how patients suffer from several diseases or how symptoms of mental health are overlapping.\nPlotting the Euler plot is based on dichotomised categorical variables (2 levels). In the FreesearchR app, categorical variables can be created from continuous data.\n\n\n3.1.2 Load the data\nStart of by launching the FreesearchR app (click this link).\n\nGo to the “Get started” tab,\nunder “Choose your data source”, select “Local or sample data”,\nthen under “Select data source”, select “stRoke”, and\nthen under “Select a dataset”, select “trial”.\n\nThis should load the data, and you can press the “Quick overview” to preview the data classes and missing values.\nIn the section “Select variables for final import”, you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.\n\n\n3.1.3 Baseline characteristics\nSee ?sec-trial_baseline on how to create a baseline characteristics table.\n\n\n3.1.4 Plotting\nNow on to the plotting. I will start by showing how to visualise the overlapping features of hypertension, diabetes and living alone:\n\nOpen the “Visuals” panel,\nselect “hypertension” as the “Response variable” to see plotting options, and\nselect “Euler diagram” and\nselect “diabetes” and “cohabitation” as “Additional variables”,\nclick “Plot”.\n\n\n3.1.4.1 Creating categorical variables\nIf you want to create new dichotomous (2-level categorical) variables from continuous data, then follow the below steps (as an exaple the “mfi_6” variable will be used):\n\nGo to “Prepare” -&gt; “Edit and create data”, the\nselect “New factor” (factor is the technical term for a categorical variable), and then\nin the pop-up window, under “Variable to cut”, select “mfi_6”,\nkeep the “Method” “fixed”, and choose “2” under “Number of breaks” to create a categorical variable with 2 levels.\nSelect the cut-off between the two levels to 12 for the “mfi_6” variable, and then\nclick “Create factor variable”.\n\nA new variable called “mfi_6_cut” is now created. Repeat the above steps for other variables you want to cut.\n\n\n3.1.4.2 (Re)ordering categorical variables\nSome scoring systems are designed to have a higher score correspond to worse outcome and others are opposite. To specify the order of the categorical levels and allow for correct plotting with the Euler plot (the plots the first level), follow these steps:\n\nWhile in the same panel (“Prepare” -&gt; “Edit and create data”), click the “Reorder factor levels”, and\norder the levels with the first level at the top (drag in the small 3x3 dot grid to the left of the level names), and then\nclick “Update factor variable”\n\n\n\n\n3.1.5 Now its time for experimentation\n\nTry create categorical variables from the age variable to create a baseline table grouped by age below or above 70.\nCreate an Euler diagram of age (below/above 70), cohabitation and male sex.\nCreate and Euler diagram of MFI, MDI (cut-off at 20) and WHO (cut-off at 17). Please note the the WHO should range from 0-100, but the included variable is scaled down by a factor of 4 and ranges 0-25.\n…\n\n\n\n\n\nDamsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne Kaergaard Mortensen. 2020. “Predictors for Wellbeing and Characteristics of Mental Health After Stroke.” Journal of Affective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.",
+    "crumbs": [
+      "Case studies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Overlapping measures</span>"
     ]
   },
   {
@@ -80,7 +80,7 @@
     "href": "references.sw.html",
     "title": "References",
     "section": "",
-    "text": "Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette\nNørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne\nKaergaard Mortensen. 2020. “Predictors for Wellbeing and\nCharacteristics of Mental Health After Stroke.” Journal of\nAffective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas\nGammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle\nKlingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske\nJohnsen, and Grethe Andersen. 2018. “Neuroregeneration and\nVascular Protection by Citalopram in Acute Ischemic Stroke\n(TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.",
+    "text": "Berkhemer, Olvert A., Puck S. S. Fransen, Debbie Beumer, Lucie A. van\nden Berg, Hester F. Lingsma, Albert J. Yoo, Wouter J. Schonewille, et\nal. 2015. “A Randomized Trial of Intraarterial Treatment for Acute\nIschemic Stroke.” New England Journal of Medicine 372\n(1): 11–20. https://doi.org/10.1056/NEJMoa1411587.\n\n\nBlauenfeldt, Rolf Ankerlund, Niels Hjort, Jan Brink Valentin, Anne-Mette\nHomburg, Boris Modrau, Birgitte Forsom Sandal, Martin Faurholdt Gude, et\nal. 2023. “Remote Ischemic Conditioning for Acute Stroke.”\nJAMA 330 (13): 1236. https://doi.org/10.1001/jama.2023.16893.\n\n\nDamsbo, Andreas Gammelgaard. 2023. Agdamsbo/stRoke: stRoke\n23.6.3. Zenodo. https://doi.org/10.5281/ZENODO.8013980.\n\n\nDamsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette\nNørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne\nKaergaard Mortensen. 2020. “Predictors for Wellbeing and\nCharacteristics of Mental Health After Stroke.” Journal of\nAffective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas\nGammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle\nKlingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske\nJohnsen, and Grethe Andersen. 2018. “Neuroregeneration and\nVascular Protection by Citalopram in Acute Ischemic Stroke\n(TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.\n\n\nKraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen,\nand Grethe Andersen. 2015. “TALOS: A Multicenter, Randomized,\nDouble-Blind, Placebo-Controlled Trial to Test the Effects of Citalopram\nin Patients with Acute Stroke.” International Journal of\nStroke 10 (6): 985–87. https://doi.org/10.1111/ijs.12485.\n\n\n“Tissue Plasminogen Activator for Acute Ischemic Stroke.”\n1995. New England Journal of Medicine 333 (24): 1581–88. https://doi.org/10.1056/nejm199512143332401.",
     "crumbs": [
       "References"
     ]
