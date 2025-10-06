@@ -30,7 +30,7 @@ In the section "Select variables for final import", you can decide to set a miss
 
 ### Baseline characteristics
 
-See @sec-trial_baseline on how to create a baseline characteristics table.
+See ["Baseline characteristics"](https://freesearchr.github.io/FreesearchR-knowledge/case_trial.html#trial_baseline) on how to create a baseline characteristics table.
 
 ### Plotting
 
