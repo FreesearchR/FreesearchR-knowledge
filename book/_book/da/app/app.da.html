@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script><script src="../site_libs/quarto-nav/headroom.min.js"></script><script src="../site_libs/clipboard/clipboard.min.js"></script><script src="../site_libs/quarto-search/autocomplete.umd.js"></script><script src="../site_libs/quarto-search/fuse.min.js"></script><script src="../site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="../">
 <link href="../app/data_types.da.html" rel="next">
@@ -210,7 +245,51 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Indholdsfortegnelse</h2>
    
   <ul>
-<li><a href="#the-freesearchr-app" id="toc-the-freesearchr-app" class="nav-link active" data-scroll-target="#the-freesearchr-app"><span class="header-section-number">2.1</span> The FreesearchR app</a></li>
+<li>
+<a href="#getting-started-with-freesearchr" id="toc-getting-started-with-freesearchr" class="nav-link active" data-scroll-target="#getting-started-with-freesearchr"><span class="header-section-number">3</span> Getting started with <strong><em>FreesearchR</em></strong></a>
+  <ul class="collapse">
+<li><a href="#launching" id="toc-launching" class="nav-link" data-scroll-target="#launching"><span class="header-section-number">3.1</span> Launching</a></li>
+  <li>
+<a href="#get-started" id="toc-get-started" class="nav-link" data-scroll-target="#get-started"><span class="header-section-number">3.2</span> Get started</a>
+  <ul class="collapse">
+<li><a href="#file-upload" id="toc-file-upload" class="nav-link" data-scroll-target="#file-upload"><span class="header-section-number">3.2.1</span> File upload</a></li>
+  <li><a href="#redcap-server-export" id="toc-redcap-server-export" class="nav-link" data-scroll-target="#redcap-server-export"><span class="header-section-number">3.2.2</span> REDCap server export</a></li>
+  <li><a href="#local-or-sample-data" id="toc-local-or-sample-data" class="nav-link" data-scroll-target="#local-or-sample-data"><span class="header-section-number">3.2.3</span> Local or sample data</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#prepare" id="toc-prepare" class="nav-link" data-scroll-target="#prepare"><span class="header-section-number">3.3</span> Prepare</a>
+  <ul class="collapse">
+<li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">3.3.1</span> Summary</a></li>
+  <li><a href="#modify" id="toc-modify" class="nav-link" data-scroll-target="#modify"><span class="header-section-number">3.3.2</span> Modify</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#evaluate" id="toc-evaluate" class="nav-link" data-scroll-target="#evaluate"><span class="header-section-number">3.4</span> Evaluate</a>
+  <ul class="collapse">
+<li><a href="#characteristics" id="toc-characteristics" class="nav-link" data-scroll-target="#characteristics"><span class="header-section-number">3.4.1</span> Characteristics</a></li>
+  <li><a href="#correlation-matrix" id="toc-correlation-matrix" class="nav-link" data-scroll-target="#correlation-matrix"><span class="header-section-number">3.4.2</span> Correlation matrix</a></li>
+  </ul>
+</li>
+  <li><a href="#visuals" id="toc-visuals" class="nav-link" data-scroll-target="#visuals"><span class="header-section-number">3.5</span> Visuals</a></li>
+  <li>
+<a href="#regression" id="toc-regression" class="nav-link" data-scroll-target="#regression"><span class="header-section-number">3.6</span> Regression</a>
+  <ul class="collapse">
+<li><a href="#table" id="toc-table" class="nav-link" data-scroll-target="#table"><span class="header-section-number">3.6.1</span> Table</a></li>
+  <li><a href="#plots" id="toc-plots" class="nav-link" data-scroll-target="#plots"><span class="header-section-number">3.6.2</span> Plots</a></li>
+  <li><a href="#model-checks" id="toc-model-checks" class="nav-link" data-scroll-target="#model-checks"><span class="header-section-number">3.6.3</span> Model checks</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#download" id="toc-download" class="nav-link" data-scroll-target="#download"><span class="header-section-number">3.7</span> Download</a>
+  <ul class="collapse">
+<li><a href="#report" id="toc-report" class="nav-link" data-scroll-target="#report"><span class="header-section-number">3.7.1</span> Report</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span class="header-section-number">3.7.2</span> Data</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code"><span class="header-section-number">3.7.3</span> Code</a></li>
+  </ul>
+</li>
+  </ul>
+</li>
   </ul></nav>
 </div>
 <!-- main -->
@@ -234,13 +313,208 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><section id="the-freesearchr-app" class="level2" data-number="2.1"><h2 data-number="2.1" class="anchored" data-anchor-id="the-freesearchr-app">
-<span class="header-section-number">2.1</span> The FreesearchR app</h2>
-<p>The FreesearchR app is published as an R-package for easy installation in a local R-environment and is also accessible <a href="https://app.freesearchr.org/">directly online in your web browser</a>.</p>
-<p>Currently, the app introduction lives in the package documentation and <a href="https://docs.freesearchr.org">is accessible here</a>.</p>
+</header><section id="getting-started-with-freesearchr" class="level1" data-number="3"><h1 data-number="3">
+<span class="header-section-number">3</span> Getting started with <strong><em>FreesearchR</em></strong>
+</h1>
+<p>Below is a simple walk-trough and basic descriptions on the different features of the <strong><em>FreesearchR</em></strong> app.</p>
+<section id="launching" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="launching">
+<span class="header-section-number">3.1</span> Launching</h2>
+<p>The easiest way to get started is to launch <a href="https://app.freesearchr.org/">the onlie version of the app (click this link)</a>. Please be aware not to upload sensitive data in this version as data security can not be guaranteed in this online environment. The app can easily be run from <em>R</em> on your own computer by running the code below (<a href="https://agdamsbo.github.io/FreesearchR/#run-locally-on-your-own-machine">read more on running locally here</a>):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(<span class="st">"pak"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pak<span class="sc">::</span><span class="fu">pak</span>(<span class="st">"agdamsbo/FreesearchR"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(FreesearchR)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>FreesearchR<span class="sc">::</span><span class="fu">launch_FreesearchR</span>()</span></code><button title="Kopier til udklipsholder" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>As a small note, a standalone Windows app version is on the drawing board as well, but no time frame is currently available.</p>
+</section><section id="get-started" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="get-started">
+<span class="header-section-number">3.2</span> Get started</h2>
+<p>Once in the app, get started by loading your data. You have three options available for importing data: file upload, REDCap server export and local or sample data.</p>
+<p>After choosing a data source nad importing data, you can preview the basic data structure and missing observations, set a threshold to filter data by completeness and further manually specify variables to include for analyses.</p>
+<section id="file-upload" class="level3" data-number="3.2.1"><h3 data-number="3.2.1" class="anchored" data-anchor-id="file-upload">
+<span class="header-section-number">3.2.1</span> File upload</h3>
+<p>Several data file formats are supported for easy import (csv, txt, xls(x), ods, rds, dta). If importing workbooks (xls(x) or ods), you are prompted to specify sheet(s) to import. If choosing multiple sheets, these are automatically merged by common variable(s), so please make sure that key/ID variables are correctly named identically.</p>
+</section><section id="redcap-server-export" class="level3" data-number="3.2.2"><h3 data-number="3.2.2" class="anchored" data-anchor-id="redcap-server-export">
+<span class="header-section-number">3.2.2</span> REDCap server export</h3>
+<p>Export data directly from a REDCap server. You need to first generate an API-token (<a href="https://confluence.research.cchmc.org/pages/viewpage.action?pageId=50987698">see these instruction</a>) in REDCap. Make sure you have the necessary rights to do so.</p>
+<p>Please don’t store the API-key on your device unless encrypted or in a keyring, as this may compromise data safety. Log in to your REDCap server and retrieve the token when needed.</p>
+<p>Type the correct web address of your REDCap server.</p>
+<p>The module will validate the information and you can click “Connect”.</p>
+<p>This will unfold options to preview your data dictionary (the main database metadata), choose fields/variables to download as well as filtering options.</p>
+</section><section id="local-or-sample-data" class="level3" data-number="3.2.3"><h3 data-number="3.2.3" class="anchored" data-anchor-id="local-or-sample-data">
+<span class="header-section-number">3.2.3</span> Local or sample data</h3>
+<p>When opening the online hosted app, you can load some sample data to try out the app. When running the app locally from <em>R</em> on your own computer, you will find all data frames loaded in your environment here. This extends the possible uses of this app to allow for quick and easy data insights and code generation.</p>
+</section></section><section id="prepare" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="prepare">
+<span class="header-section-number">3.3</span> Prepare</h2>
+<p>This is the panel to prepare data for evaluation and analyses and get a good overview of your data, check data is classed and formatted correctly, perform simple modifications and filter data.</p>
+<section id="summary" class="level3" data-number="3.3.1"><h3 data-number="3.3.1" class="anchored" data-anchor-id="summary">
+<span class="header-section-number">3.3.1</span> Summary</h3>
+<p>Here, the data variables can be inspected with a simple visualisation and a few key measures. Also, data filtering is available at two levels:</p>
+<ul>
+<li><p>Data type filtering allows to filter by variable <a href="https://agdamsbo.github.io/FreesearchR/articles/data-types.html">data type</a></p></li>
+<li><p>Observations level filtering allow to filter data by variable</p></li>
+</ul></section><section id="modify" class="level3" data-number="3.3.2"><h3 data-number="3.3.2" class="anchored" data-anchor-id="modify">
+<span class="header-section-number">3.3.2</span> Modify</h3>
+<p>Re-class, rename, and relabel variables. Subset data, create new variables and reorder factor levels. Also, compare the modified dataset to the original and restore the original data.</p>
+</section></section><section id="evaluate" class="level2" data-number="3.4"><h2 data-number="3.4" class="anchored" data-anchor-id="evaluate">
+<span class="header-section-number">3.4</span> Evaluate</h2>
+<p>This panel allows for basic data evaluation.</p>
+<section id="characteristics" class="level3" data-number="3.4.1"><h3 data-number="3.4.1" class="anchored" data-anchor-id="characteristics">
+<span class="header-section-number">3.4.1</span> Characteristics</h3>
+<p>Create a classical baseline characteristics table with optional data stratification and comparisons.</p>
+</section><section id="correlation-matrix" class="level3" data-number="3.4.2"><h3 data-number="3.4.2" class="anchored" data-anchor-id="correlation-matrix">
+<span class="header-section-number">3.4.2</span> Correlation matrix</h3>
+<p>Visualise variable correlations and get suggestions to exclude highly correlated variables.</p>
+</section></section><section id="visuals" class="level2" data-number="3.5"><h2 data-number="3.5" class="anchored" data-anchor-id="visuals">
+<span class="header-section-number">3.5</span> Visuals</h2>
+<p>There are a number of plotting options to visualise different aspects of the data.</p>
+<p>Below are the available plot types listed.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 15%">
+<col style="width: 77%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: left;">Data type</th>
+<th style="text-align: left;">Plot type</th>
+<th style="text-align: left;">Description</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Violin plot</td>
+<td style="text-align: left;">A modern alternative to the classic boxplot to visualise data distribution</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Scatter plot</td>
+<td style="text-align: left;">A classic way of showing the association between to variables</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Box plot</td>
+<td style="text-align: left;">A classic way to plot data distribution by groups</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Stacked relative barplot</td>
+<td style="text-align: left;">Create relative stacked barplots to show the distribution of categorical levels</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Side-by-side barplot</td>
+<td style="text-align: left;">Create side-by-side barplot to show the distribution of categorical levels</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Stacked horizontal bars</td>
+<td style="text-align: left;">A classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Sankey plot</td>
+<td style="text-align: left;">A way of visualising change between groups</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Euler diagram</td>
+<td style="text-align: left;">Generate area-proportional Euler diagrams to display set relationships</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Stacked relative barplot</td>
+<td style="text-align: left;">Create relative stacked barplots to show the distribution of categorical levels</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Side-by-side barplot</td>
+<td style="text-align: left;">Create side-by-side barplot to show the distribution of categorical levels</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Stacked horizontal bars</td>
+<td style="text-align: left;">A classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Sankey plot</td>
+<td style="text-align: left;">A way of visualising change between groups</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Export the plots directly from the sidebar with easily adjusted plot dimensions for your next publication.</p>
+<p>Also copy the code to generate the plot in your own R-environment and fine tune all the small details.</p>
+</section><section id="regression" class="level2" data-number="3.6"><h2 data-number="3.6" class="anchored" data-anchor-id="regression">
+<span class="header-section-number">3.6</span> Regression</h2>
+<p>This section is only intended for very simple explorative analyses and as a proof-of-concept for now. If you are doing complex regression analyses you should probably just write the code yourself.</p>
+<p>Below are the available regression types listed.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 46%">
+<col style="width: 15%">
+<col style="width: 21%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: left;">Data type</th>
+<th style="text-align: left;">Regression model</th>
+<th style="text-align: left;">Function</th>
+<th style="text-align: left;">Study design</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Linear regression model</td>
+<td style="text-align: left;">stats::lm</td>
+<td style="text-align: left;">cross-sectional</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Logistic regression model</td>
+<td style="text-align: left;">stats::glm</td>
+<td style="text-align: left;">cross-sectional</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Ordinal logistic regression model</td>
+<td style="text-align: left;">MASS::polr</td>
+<td style="text-align: left;">cross-sectional</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<section id="table" class="level3" data-number="3.6.1"><h3 data-number="3.6.1" class="anchored" data-anchor-id="table">
+<span class="header-section-number">3.6.1</span> Table</h3>
+<p>Generate simple regression models and get the results in a nice table. This will also be included in the exported report.</p>
+<p>This will generate a combined table with both univariate regression model results for each included variable and a multivariate model with all variables included for explorative analyses.</p>
+</section><section id="plots" class="level3" data-number="3.6.2"><h3 data-number="3.6.2" class="anchored" data-anchor-id="plots">
+<span class="header-section-number">3.6.2</span> Plots</h3>
+<p>Plot the coefficients from the regression models in a forest plot. Choose which model(s) to include.</p>
+</section><section id="model-checks" class="level3" data-number="3.6.3"><h3 data-number="3.6.3" class="anchored" data-anchor-id="model-checks">
+<span class="header-section-number">3.6.3</span> Model checks</h3>
+<p>Check model assumptions visually. Supported checks can be chosen.</p>
+</section></section><section id="download" class="level2" data-number="3.7"><h2 data-number="3.7" class="anchored" data-anchor-id="download">
+<span class="header-section-number">3.7</span> Download</h2>
+<section id="report" class="level3" data-number="3.7.1"><h3 data-number="3.7.1" class="anchored" data-anchor-id="report">
+<span class="header-section-number">3.7.1</span> Report</h3>
+<p>Download a nice report with baseline characteristics and regression model results. Choose between MS Word or LibreOffice format.</p>
+</section><section id="data" class="level3" data-number="3.7.2"><h3 data-number="3.7.2" class="anchored" data-anchor-id="data">
+<span class="header-section-number">3.7.2</span> Data</h3>
+<p>Export the modified dataset in different formats.</p>
+</section><section id="code" class="level3" data-number="3.7.3"><h3 data-number="3.7.3" class="anchored" data-anchor-id="code">
+<span class="header-section-number">3.7.3</span> Code</h3>
+<p>See all the code snippets from the different steps in your data evaluation.</p>
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section></section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();

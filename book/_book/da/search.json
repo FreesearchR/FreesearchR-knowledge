@@ -34,7 +34,84 @@
     "href": "app/app.da.html",
     "title": "2  FreesearchR app intro",
     "section": "",
-    "text": "2.1 The FreesearchR app\nThe FreesearchR app is published as an R-package for easy installation in a local R-environment and is also accessible directly online in your web browser.\nCurrently, the app introduction lives in the package documentation and is accessible here.",
+    "text": "3 Getting started with FreesearchR\nBelow is a simple walk-trough and basic descriptions on the different features of the FreesearchR app.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#launching",
+    "href": "app/app.da.html#launching",
+    "title": "2  FreesearchR app intro",
+    "section": "3.1 Launching",
+    "text": "3.1 Launching\nThe easiest way to get started is to launch the onlie version of the app (click this link). Please be aware not to upload sensitive data in this version as data security can not be guaranteed in this online environment. The app can easily be run from R on your own computer by running the code below (read more on running locally here):\n\nrequire(\"pak\")\npak::pak(\"agdamsbo/FreesearchR\")\nlibrary(FreesearchR)\nFreesearchR::launch_FreesearchR()\n\nAs a small note, a standalone Windows app version is on the drawing board as well, but no time frame is currently available.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#get-started",
+    "href": "app/app.da.html#get-started",
+    "title": "2  FreesearchR app intro",
+    "section": "3.2 Get started",
+    "text": "3.2 Get started\nOnce in the app, get started by loading your data. You have three options available for importing data: file upload, REDCap server export and local or sample data.\nAfter choosing a data source nad importing data, you can preview the basic data structure and missing observations, set a threshold to filter data by completeness and further manually specify variables to include for analyses.\n\n3.2.1 File upload\nSeveral data file formats are supported for easy import (csv, txt, xls(x), ods, rds, dta). If importing workbooks (xls(x) or ods), you are prompted to specify sheet(s) to import. If choosing multiple sheets, these are automatically merged by common variable(s), so please make sure that key/ID variables are correctly named identically.\n\n\n3.2.2 REDCap server export\nExport data directly from a REDCap server. You need to first generate an API-token (see these instruction) in REDCap. Make sure you have the necessary rights to do so.\nPlease don’t store the API-key on your device unless encrypted or in a keyring, as this may compromise data safety. Log in to your REDCap server and retrieve the token when needed.\nType the correct web address of your REDCap server.\nThe module will validate the information and you can click “Connect”.\nThis will unfold options to preview your data dictionary (the main database metadata), choose fields/variables to download as well as filtering options.\n\n\n3.2.3 Local or sample data\nWhen opening the online hosted app, you can load some sample data to try out the app. When running the app locally from R on your own computer, you will find all data frames loaded in your environment here. This extends the possible uses of this app to allow for quick and easy data insights and code generation.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#prepare",
+    "href": "app/app.da.html#prepare",
+    "title": "2  FreesearchR app intro",
+    "section": "3.3 Prepare",
+    "text": "3.3 Prepare\nThis is the panel to prepare data for evaluation and analyses and get a good overview of your data, check data is classed and formatted correctly, perform simple modifications and filter data.\n\n3.3.1 Summary\nHere, the data variables can be inspected with a simple visualisation and a few key measures. Also, data filtering is available at two levels:\n\nData type filtering allows to filter by variable data type\nObservations level filtering allow to filter data by variable\n\n\n\n3.3.2 Modify\nRe-class, rename, and relabel variables. Subset data, create new variables and reorder factor levels. Also, compare the modified dataset to the original and restore the original data.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#evaluate",
+    "href": "app/app.da.html#evaluate",
+    "title": "2  FreesearchR app intro",
+    "section": "3.4 Evaluate",
+    "text": "3.4 Evaluate\nThis panel allows for basic data evaluation.\n\n3.4.1 Characteristics\nCreate a classical baseline characteristics table with optional data stratification and comparisons.\n\n\n3.4.2 Correlation matrix\nVisualise variable correlations and get suggestions to exclude highly correlated variables.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#visuals",
+    "href": "app/app.da.html#visuals",
+    "title": "2  FreesearchR app intro",
+    "section": "3.5 Visuals",
+    "text": "3.5 Visuals\nThere are a number of plotting options to visualise different aspects of the data.\nBelow are the available plot types listed.\n\n\n\n\n\n\n\n\n\n\nData type\nPlot type\nDescription\n\n\n\n\ncontinuous\nViolin plot\nA modern alternative to the classic boxplot to visualise data distribution\n\n\ncontinuous\nScatter plot\nA classic way of showing the association between to variables\n\n\ncontinuous\nBox plot\nA classic way to plot data distribution by groups\n\n\ndichotomous\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ndichotomous\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ndichotomous\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ndichotomous\nSankey plot\nA way of visualising change between groups\n\n\ndichotomous\nEuler diagram\nGenerate area-proportional Euler diagrams to display set relationships\n\n\ncategorical\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ncategorical\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ncategorical\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ncategorical\nSankey plot\nA way of visualising change between groups\n\n\n\n\n\nExport the plots directly from the sidebar with easily adjusted plot dimensions for your next publication.\nAlso copy the code to generate the plot in your own R-environment and fine tune all the small details.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#regression",
+    "href": "app/app.da.html#regression",
+    "title": "2  FreesearchR app intro",
+    "section": "3.6 Regression",
+    "text": "3.6 Regression\nThis section is only intended for very simple explorative analyses and as a proof-of-concept for now. If you are doing complex regression analyses you should probably just write the code yourself.\nBelow are the available regression types listed.\n\n\n\n\n\n\n\n\n\n\n\nData type\nRegression model\nFunction\nStudy design\n\n\n\n\ncontinuous\nLinear regression model\nstats::lm\ncross-sectional\n\n\ndichotomous\nLogistic regression model\nstats::glm\ncross-sectional\n\n\ncategorical\nOrdinal logistic regression model\nMASS::polr\ncross-sectional\n\n\n\n\n\n\n3.6.1 Table\nGenerate simple regression models and get the results in a nice table. This will also be included in the exported report.\nThis will generate a combined table with both univariate regression model results for each included variable and a multivariate model with all variables included for explorative analyses.\n\n\n3.6.2 Plots\nPlot the coefficients from the regression models in a forest plot. Choose which model(s) to include.\n\n\n3.6.3 Model checks\nCheck model assumptions visually. Supported checks can be chosen.",
+    "crumbs": [
+      "FreesearchR app",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
+    ]
+  },
+  {
+    "objectID": "app/app.da.html#download",
+    "href": "app/app.da.html#download",
+    "title": "2  FreesearchR app intro",
+    "section": "3.7 Download",
+    "text": "3.7 Download\n\n3.7.1 Report\nDownload a nice report with baseline characteristics and regression model results. Choose between MS Word or LibreOffice format.\n\n\n3.7.2 Data\nExport the modified dataset in different formats.\n\n\n3.7.3 Code\nSee all the code snippets from the different steps in your data evaluation.",
     "crumbs": [
       "FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
