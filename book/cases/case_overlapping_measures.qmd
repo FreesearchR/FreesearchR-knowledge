@@ -1,6 +1,5 @@
 ---
 title: "Overlapping measures"
-bibliography: references.bib
 ---
 
 ## Overlapping measures

@@ -1,0 +1,10 @@
+---
+title: "missingness"
+format: html
+---
+
+## Considering missing observations
+
+### Further reading
+
+The authors behind the [{finalfit}-package](https://finalfit.org/index.html) have shared a very comprehensive article on what to do and think about missing observations in your data. Please [have a look here](https://finalfit.org/articles/missing.html).

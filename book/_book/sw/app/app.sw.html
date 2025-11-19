@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="da" xml:lang="da">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sw" xml:lang="sw">
 <head>
-<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/further.html" />
-<link rel="alternate" hreflang="da" href="https://freesearchr.github.io/FreesearchR-knowledge/da/further.da.html" />
-<link rel="alternate" hreflang="sw" href="https://freesearchr.github.io/FreesearchR-knowledge/sw/further.sw.html" />
+<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/app/app.html" />
+<link rel="alternate" hreflang="da" href="https://freesearchr.github.io/FreesearchR-knowledge/da/app/app.da.html" />
+<link rel="alternate" hreflang="sw" href="https://freesearchr.github.io/FreesearchR-knowledge/sw/app/app.sw.html" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.30">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="description" content="Introduktion til dataanalyse med FreesearchR">
-<title>8  Further learning – FreesearchR viden</title>
+<meta name="description" content="Utangulizi wa uchambuzi wa data na FreesearchR">
+<title>2  FreesearchR app intro – FreesearchR Maarifa</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,13 +23,13 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-<script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/quarto-nav/headroom.min.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./">
-<link href="./references.da.html" rel="next">
-<link href="./cases/case_overlapping_measures.da.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script><script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script><link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script><script src="../site_libs/quarto-nav/headroom.min.js"></script><script src="../site_libs/clipboard/clipboard.min.js"></script><script src="../site_libs/quarto-search/autocomplete.umd.js"></script><script src="../site_libs/quarto-search/fuse.min.js"></script><script src="../site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="../">
+<link href="../app/data_types.sw.html" rel="next">
+<link href="../qa/qa.sw.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script><script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="../site_libs/quarto-html/popper.min.js"></script><script src="../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../site_libs/quarto-html/anchor.min.js"></script><link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script><link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -44,17 +44,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Ingen resultater",
-    "search-matching-documents-text": "Matchende dokumenter",
-    "search-copy-link-title": "Kopier link for at søge",
-    "search-hide-matches-text": "Skjul yderligere resultater",
-    "search-more-match-text": "andet resultat i dette dokument",
-    "search-more-matches-text": "andre resultater i dette dokument",
-    "search-clear-button-title": "Ryd",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Fortryd",
-    "search-submit-button-title": "Indsend",
-    "search-label": "Søg"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 </head>
@@ -62,15 +62,15 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Skift sidebjælke" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="./further.da.html">Further learning</a></li>
-<li class="breadcrumb-item"><a href="./further.da.html"><span class="chapter-number">8</span>  <span class="chapter-title">Further learning</span></a></li>
-</ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Skift sidebjælke" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+<li class="breadcrumb-item"><a href="../app/app.sw.html">FreesearchR app</a></li>
+<li class="breadcrumb-item"><a href="../app/app.sw.html"><span class="chapter-number">2</span>  <span class="chapter-title">FreesearchR app intro</span></a></li>
+</ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Søg" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -78,31 +78,31 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">FreesearchR viden</a> 
+      <a href="../">FreesearchR Maarifa</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Søg"></div>
+        <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
     <div class="dropdown" id="languages-links-parent">
-<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> Læs på dansk</button><ul class="dropdown-menu" id="languages-links">
-<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/sw/further.sw.html" id="language-link-sw">Soma kwa kiswahili</a></li>
-<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/further.html" id="language-link-en">Read in English</a></li>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> Soma kwa kiswahili</button><ul class="dropdown-menu" id="languages-links">
+<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/da/app/app.da.html" id="language-link-da">Læs på dansk</a></li>
+<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/app/app.html" id="language-link-en">Read in English</a></li>
 </ul>
 </div>
 <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qa/qa.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../qa/qa.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">Questions and answers</span></span></a>
   </div>
 </li>
@@ -110,26 +110,26 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">FreesearchR app</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Skift sektion">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./app/app.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../app/app.sw.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">FreesearchR app intro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./app/data_types.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../app/data_types.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">Understanding data types</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./app/visuals.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../app/visuals.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Options for data visuals</span></span></a>
   </div>
 </li>
@@ -139,14 +139,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Background</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Skift sektion">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro/missingness.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../intro/missingness.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>  <span class="chapter-title">missingness</span></span></a>
   </div>
 </li>
@@ -156,20 +156,20 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Case studies</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Skift sektion">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cases/case_trial.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../cases/case_trial.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cases/case_overlapping_measures.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../cases/case_overlapping_measures.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>  <span class="chapter-title">Overlapping measures</span></span></a>
   </div>
 </li>
@@ -179,14 +179,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">Further learning</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Skift sektion">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./further.da.html" class="sidebar-item-text sidebar-link active">
+  <a href="../further.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>  <span class="chapter-title">Further learning</span></span></a>
   </div>
 </li>
@@ -194,32 +194,32 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.da.html" class="sidebar-item-text sidebar-link">
+  <a href="../references.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Bilag</span></span>
+ <span class="menu-text">Appendices</span></span>
   </li>
     </ul>
 </div>
 </nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Indholdsfortegnelse</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Jedwali la yaliyomo</h2>
    
   <ul>
-<li><a href="#where-to-go-next" id="toc-where-to-go-next" class="nav-link active" data-scroll-target="#where-to-go-next"><span class="header-section-number">8.1</span> Where to go next</a></li>
+<li><a href="#the-freesearchr-app" id="toc-the-freesearchr-app" class="nav-link active" data-scroll-target="#the-freesearchr-app"><span class="header-section-number">2.1</span> The FreesearchR app</a></li>
   </ul></nav>
 </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="./further.da.html">Further learning</a></li>
-<li class="breadcrumb-item"><a href="./further.da.html"><span class="chapter-number">8</span>  <span class="chapter-title">Further learning</span></a></li>
+<li class="breadcrumb-item"><a href="../app/app.sw.html">FreesearchR app</a></li>
+<li class="breadcrumb-item"><a href="../app/app.sw.html"><span class="chapter-number">2</span>  <span class="chapter-title">FreesearchR app intro</span></a></li>
 </ol></nav><div class="quarto-title">
 <h1 class="title">
-<span class="chapter-number">8</span>  <span class="chapter-title">Further learning</span>
+<span class="chapter-number">2</span>  <span class="chapter-title">FreesearchR app intro</span>
 </h1>
 </div>
 
@@ -234,10 +234,10 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><section id="where-to-go-next" class="level2" data-number="8.1"><h2 data-number="8.1" class="anchored" data-anchor-id="where-to-go-next">
-<span class="header-section-number">8.1</span> Where to go next</h2>
-<p>The FreesearchR project is not affiliated with the listed references below unless stated.</p>
-<p><a href="https://exercism.org/">Exercism</a> is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.</p>
+</header><section id="the-freesearchr-app" class="level2" data-number="2.1"><h2 data-number="2.1" class="anchored" data-anchor-id="the-freesearchr-app">
+<span class="header-section-number">2.1</span> The FreesearchR app</h2>
+<p>The FreesearchR app is published as an R-package for easy installation in a local R-environment and is also accessible <a href="https://app.freesearchr.org/">directly online in your web browser</a>.</p>
+<p>Currently, the app introduction lives in the package documentation and <a href="https://docs.freesearchr.org">is accessible here</a>.</p>
 
 
 </section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
@@ -265,12 +265,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Kopieret!");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Kopieret!");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -312,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/freesearchr\.github\.io\/FreesearchR-knowledge\/da");
+        var filterRegex = new RegExp("https:\/\/freesearchr\.github\.io\/FreesearchR-knowledge\/sw");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -639,13 +639,13 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="./cases/case_overlapping_measures.da.html" class="pagination-link" aria-label="Overlapping measures">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>  <span class="chapter-title">Overlapping measures</span></span>
+      <a href="../qa/qa.sw.html" class="pagination-link" aria-label="Questions and answers">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>  <span class="chapter-title">Questions and answers</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.da.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../app/data_types.sw.html" class="pagination-link" aria-label="Understanding data types">
+        <span class="nav-page-text"><span class="chapter-number">3</span>  <span class="chapter-title">Understanding data types</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

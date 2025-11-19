@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sw" xml:lang="sw">
 <head>
-<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/case_trial.html" />
-<link rel="alternate" hreflang="da" href="https://freesearchr.github.io/FreesearchR-knowledge/da/case_trial.da.html" />
-<link rel="alternate" hreflang="sw" href="https://freesearchr.github.io/FreesearchR-knowledge/sw/case_trial.sw.html" />
+<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/app/visuals.html" />
+<link rel="alternate" hreflang="da" href="https://freesearchr.github.io/FreesearchR-knowledge/da/app/visuals.da.html" />
+<link rel="alternate" hreflang="sw" href="https://freesearchr.github.io/FreesearchR-knowledge/sw/app/visuals.sw.html" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.30">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>2  Randomised clinical trial in stroke – FreesearchR knowledge base</title>
+<meta name="description" content="Utangulizi wa uchambuzi wa data na FreesearchR">
+<title>4  Options for data visuals – FreesearchR Maarifa</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,34 +22,49 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
-<script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/quarto-nav/headroom.min.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./">
-<link href="./case_overlapping_measures.html" rel="next">
-<link href="./app.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script><script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script><link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+</style>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script><script src="../site_libs/quarto-nav/headroom.min.js"></script><script src="../site_libs/clipboard/clipboard.min.js"></script><script src="../site_libs/quarto-search/autocomplete.umd.js"></script><script src="../site_libs/quarto-search/fuse.min.js"></script><script src="../site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="../">
+<link href="../intro/missingness.sw.html" rel="next">
+<link href="../app/data_types.sw.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script><script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="../site_libs/quarto-html/popper.min.js"></script><script src="../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../site_libs/quarto-html/anchor.min.js"></script><link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script><link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -85,8 +101,8 @@ div.csl-indent {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="./case_trial.html">Case studies</a></li>
-<li class="breadcrumb-item"><a href="./case_trial.html"><span class="chapter-number">2</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></a></li>
+<li class="breadcrumb-item"><a href="../app/app.sw.html">FreesearchR app</a></li>
+<li class="breadcrumb-item"><a href="../app/visuals.sw.html"><span class="chapter-number">4</span>  <span class="chapter-title">Options for data visuals</span></a></li>
 </ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -97,7 +113,7 @@ div.csl-indent {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">FreesearchR knowledge base</a> 
+      <a href="../">FreesearchR Maarifa</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -106,17 +122,23 @@ div.csl-indent {
         </div>
         </div>
     <div class="dropdown" id="languages-links-parent">
-<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> Read in English</button><ul class="dropdown-menu" id="languages-links">
-<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/sw/case_trial.sw.html" id="language-link-sw">Soma kwa kiswahili</a></li>
-<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/da/case_trial.da.html" id="language-link-da">Læs på dansk</a></li>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> Soma kwa kiswahili</button><ul class="dropdown-menu" id="languages-links">
+<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/da/app/visuals.da.html" id="language-link-da">Læs på dansk</a></li>
+<li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/app/visuals.html" id="language-link-en">Read in English</a></li>
 </ul>
 </div>
 <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../qa/qa.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">Questions and answers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -130,8 +152,20 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./app.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">FreesearchR app intro</span></span></a>
+  <a href="../app/app.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">FreesearchR app intro</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../app/data_types.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">Understanding data types</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../app/visuals.sw.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Options for data visuals</span></span></a>
   </div>
 </li>
       </ul>
@@ -139,7 +173,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Case studies</span></a>
+ <span class="menu-text">Background</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -147,14 +181,8 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./case_trial.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./case_overlapping_measures.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">Overlapping measures</span></span></a>
+  <a href="../intro/missingness.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>  <span class="chapter-title">missingness</span></span></a>
   </div>
 </li>
       </ul>
@@ -162,7 +190,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Further learning</span></a>
+ <span class="menu-text">Case studies</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -170,44 +198,68 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./further.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Further learning</span></span></a>
+  <a href="../cases/case_trial.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cases/case_overlapping_measures.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>  <span class="chapter-title">Overlapping measures</span></span></a>
+  </div>
+</li>
+      </ul>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Further learning</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../further.sw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>  <span class="chapter-title">Further learning</span></span></a>
   </div>
 </li>
       </ul>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
+  <a href="../references.sw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Appendices</span></span>
+  </li>
     </ul>
 </div>
 </nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Jedwali la yaliyomo</h2>
    
   <ul>
 <li>
-<a href="#a-clinical-trial-on-neuroprotection-in-stroke" id="toc-a-clinical-trial-on-neuroprotection-in-stroke" class="nav-link active" data-scroll-target="#a-clinical-trial-on-neuroprotection-in-stroke"><span class="header-section-number">2.1</span> A clinical trial on neuroprotection in stroke</a>
+<a href="#basic-visualisations" id="toc-basic-visualisations" class="nav-link active" data-scroll-target="#basic-visualisations"><span class="header-section-number">4.1</span> Basic visualisations</a>
   <ul class="collapse">
-<li><a href="#load-the-data" id="toc-load-the-data" class="nav-link" data-scroll-target="#load-the-data"><span class="header-section-number">2.1.1</span> Load the data</a></li>
-  <li><a href="#trial_baseline" id="toc-trial_baseline" class="nav-link" data-scroll-target="#trial_baseline"><span class="header-section-number">2.1.2</span> Baseline characteristics</a></li>
-  <li><a href="#visualise-the-classic-outcome" id="toc-visualise-the-classic-outcome" class="nav-link" data-scroll-target="#visualise-the-classic-outcome"><span class="header-section-number">2.1.3</span> Visualise the classic outcome</a></li>
-  <li><a href="#now-its-time-for-experimentation" id="toc-now-its-time-for-experimentation" class="nav-link" data-scroll-target="#now-its-time-for-experimentation"><span class="header-section-number">2.1.4</span> Now its time for experimentation</a></li>
+<li><a href="#available-plots" id="toc-available-plots" class="nav-link" data-scroll-target="#available-plots"><span class="header-section-number">4.1.1</span> Available plots</a></li>
   </ul>
 </li>
   </ul></nav>
 </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="./case_trial.html">Case studies</a></li>
-<li class="breadcrumb-item"><a href="./case_trial.html"><span class="chapter-number">2</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></a></li>
+<li class="breadcrumb-item"><a href="../app/app.sw.html">FreesearchR app</a></li>
+<li class="breadcrumb-item"><a href="../app/visuals.sw.html"><span class="chapter-number">4</span>  <span class="chapter-title">Options for data visuals</span></a></li>
 </ol></nav><div class="quarto-title">
 <h1 class="title">
-<span class="chapter-number">2</span>  <span class="chapter-title">Randomised clinical trial in stroke</span>
+<span class="chapter-number">4</span>  <span class="chapter-title">Options for data visuals</span>
 </h1>
 </div>
 
@@ -222,89 +274,117 @@ div.csl-indent {
   
 
 
-</header><section id="a-clinical-trial-on-neuroprotection-in-stroke" class="level2" data-number="2.1"><h2 data-number="2.1" class="anchored" data-anchor-id="a-clinical-trial-on-neuroprotection-in-stroke">
-<span class="header-section-number">2.1</span> A clinical trial on neuroprotection in stroke</h2>
-<p>This case study will be based on the study “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)”.<span class="citation" data-cites="kraglund2018">(<a href="references.html#ref-kraglund2018" role="doc-biblioref">K. L. Kraglund et al. 2018</a>)</span></p>
-<p>We will not be able to include all data from this trial, but key tables and figures based on annonymised data from the trial included in the <strong><em>FreesearchR</em></strong> app will be used. These data are published for educational purposes in the “stRoke” package, which also includes a few tools for clinical stroke trials.<span class="citation" data-cites="damsbo2023">(<a href="references.html#ref-damsbo2023" role="doc-biblioref">Damsbo 2023</a>)</span></p>
-<p>The TALOS trial was a randomised trial, with a predefined analysis plan and a published protocol.<span class="citation" data-cites="kraglund2015">(<a href="references.html#ref-kraglund2015" role="doc-biblioref">K. Kraglund et al. 2015</a>)</span> As the trial was randomised, the main analyses where</p>
-<section id="load-the-data" class="level3" data-number="2.1.1"><h3 data-number="2.1.1" class="anchored" data-anchor-id="load-the-data">
-<span class="header-section-number">2.1.1</span> Load the data</h3>
-<p>Start of by launching the <a href="https://app.freesearchr.org"><strong><em>FreesearchR</em></strong> app (click this link)</a>.</p>
-<ol type="1">
-<li>Go to the “Get started” tab,</li>
-<li>under “Choose your data source”, select “Local or sample data”,</li>
-<li>then under “Select data source”, select “stRoke”, and</li>
-<li>then under “Select a dataset”, select “trial”.</li>
-</ol>
-<p>This should load the data, and you can press the “Quick overview” to preview the data classes and missing values.</p>
-<p>In the section “Select variables for final import”, you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.</p>
-</section><section id="trial_baseline" class="level3" data-number="2.1.2"><h3 data-number="2.1.2" class="anchored" data-anchor-id="trial_baseline">
-<span class="header-section-number">2.1.2</span> Baseline characteristics</h3>
-<p>Having loaded the relevant dataset, we will go straight to generating a classic table for overview of the variables, typically what is included in papers as a Table 1.</p>
-<ol type="1">
-<li>Click the “Evaluate” panel and</li>
-<li>select the “Characteristics” sub-panel in the dropdown.</li>
-</ol>
-<p>This is the section, where the characteristics panel is generated.</p>
-<p>In the sidebar</p>
-<ol type="1">
-<li>Under “Select variable to stratify baseline”, select “active” to stratify by active trial treatment, and</li>
-<li>then click “Evaluate”, wait a second and have a look at the table generated.</li>
-</ol>
-<p>The table can be exported in a document format.</p>
-<ol type="1">
-<li>Go to the “Download” panel at the top,</li>
-<li>under “Report”, choose the desired document format (MS Word or LibreOffice), and</li>
-<li>click “Download report”.</li>
-</ol>
-<p>This will generate the report and it will get downloaded to your device. Find it in your downloads folder.</p>
-</section><section id="visualise-the-classic-outcome" class="level3" data-number="2.1.3"><h3 data-number="2.1.3" class="anchored" data-anchor-id="visualise-the-classic-outcome">
-<span class="header-section-number">2.1.3</span> Visualise the classic outcome</h3>
-<p>The modified Rankin Scale (mRS) score has been used as the main outcome for a large number stroke trials.<span class="citation" data-cites="tissuep1995 berkhemer2015 blauenfeldt2023">(<a href="references.html#ref-tissuep1995" role="doc-biblioref"><span>“Tissue Plasminogen Activator for Acute Ischemic Stroke”</span> 1995</a>; <a href="references.html#ref-berkhemer2015" role="doc-biblioref">Berkhemer et al. 2015</a>; <a href="references.html#ref-blauenfeldt2023" role="doc-biblioref">Blauenfeldt et al. 2023</a>)</span> The TALOS trial also used the mRS, but did not include a graph to show the distribution. Let’s create that graph now then:</p>
-<ol type="1">
-<li>Go to “Visuals”, and</li>
-<li>select “mrs_6” as the “Response variable” to see plotting options, and</li>
-<li>select “Stacked horizontal bars” and</li>
-<li>select “active” as the secondary variable to stratify by trial treatment, then</li>
-<li>click “Plot” to view the results.</li>
-</ol>
-<p>To export the plot</p>
-<ol type="1">
-<li>Click the “Download” sidebar section to unfold the download options,</li>
-<li>specify the details and select file format, and</li>
-<li>click “Download”.</li>
-</ol>
-<p>Open the plot locally to verify the results.</p>
-</section><section id="now-its-time-for-experimentation" class="level3" data-number="2.1.4"><h3 data-number="2.1.4" class="anchored" data-anchor-id="now-its-time-for-experimentation">
-<span class="header-section-number">2.1.4</span> Now its time for experimentation</h3>
-<p>The above instructions are intended to introduce some of the functionality of the FreesearchR app. Please review the sections to experiment to explore the functions, but also to explore the data you are using. Here are some questions to think about:</p>
-<ol type="1">
-<li>What is the median age for men? And for women?</li>
-<li>How is the distribution of of mRS score at 1 month?</li>
-<li>How is the distribution of mRS score at 6 months grouped by sex?</li>
-<li>In the trial introducing IVT treatment<span class="citation" data-cites="tissuep1995">(<a href="references.html#ref-tissuep1995" role="doc-biblioref"><span>“Tissue Plasminogen Activator for Acute Ischemic Stroke”</span> 1995</a>)</span>, several outcome scales were used and binned. How would this be done with the FreesearchR app?</li>
-<li>…</li>
-</ol>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-berkhemer2015" class="csl-entry" role="listitem">
-Berkhemer, Olvert A., Puck S. S. Fransen, Debbie Beumer, Lucie A. van den Berg, Hester F. Lingsma, Albert J. Yoo, Wouter J. Schonewille, et al. 2015. <span>“A Randomized Trial of Intraarterial Treatment for Acute Ischemic Stroke.”</span> <em>New England Journal of Medicine</em> 372 (1): 11–20. <a href="https://doi.org/10.1056/NEJMoa1411587">https://doi.org/10.1056/NEJMoa1411587</a>.
+</header><div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(FreesearchR)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'FreesearchR'</code></pre>
 </div>
-<div id="ref-blauenfeldt2023" class="csl-entry" role="listitem">
-Blauenfeldt, Rolf Ankerlund, Niels Hjort, Jan Brink Valentin, Anne-Mette Homburg, Boris Modrau, Birgitte Forsom Sandal, Martin Faurholdt Gude, et al. 2023. <span>“Remote Ischemic Conditioning for Acute Stroke.”</span> <em>JAMA</em> 330 (13): 1236. <a href="https://doi.org/10.1001/jama.2023.16893">https://doi.org/10.1001/jama.2023.16893</a>.
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:base':
+
+    sort_by</code></pre>
 </div>
-<div id="ref-damsbo2023" class="csl-entry" role="listitem">
-Damsbo, Andreas Gammelgaard. 2023. <em>Agdamsbo/stRoke: stRoke 23.6.3</em>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.8013980">https://doi.org/10.5281/ZENODO.8013980</a>.
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>i18n_path <span class="ot">&lt;-</span> <span class="fu">system.file</span>(<span class="st">"translations"</span>, <span class="at">package =</span> <span class="st">"FreesearchR"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>i18n <span class="ot">&lt;-</span> shiny.i18n<span class="sc">::</span>Translator<span class="sc">$</span><span class="fu">new</span>(<span class="at">translation_csvs_path =</span> i18n_path)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in load_local_config(translation_csv_config): You didn't specify config
+translation yaml file. Default settings are used.</code></pre>
 </div>
-<div id="ref-kraglund2018" class="csl-entry" role="listitem">
-Kraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas Gammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle Klingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske Johnsen, and Grethe Andersen. 2018. <span>“Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS).”</span> <em>Stroke</em> 49 (11): 2568–76. <a href="https://doi.org/10.1161/strokeaha.117.020067">https://doi.org/10.1161/strokeaha.117.020067</a>.
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>i18n<span class="sc">$</span><span class="fu">set_translation_language</span>(<span class="st">"en"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="ref-kraglund2015" class="csl-entry" role="listitem">
-Kraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen, and Grethe Andersen. 2015. <span>“TALOS: A Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial to Test the Effects of Citalopram in Patients with Acute Stroke.”</span> <em>International Journal of Stroke</em> 10 (6): 985–87. <a href="https://doi.org/10.1111/ijs.12485">https://doi.org/10.1111/ijs.12485</a>.
+<section id="basic-visualisations" class="level2" data-number="4.1"><h2 data-number="4.1" class="anchored" data-anchor-id="basic-visualisations">
+<span class="header-section-number">4.1</span> Basic visualisations</h2>
+<p>The goal of <strong><em>FreesearchR</em></strong> is to keep things simple. Visuals can get very complicated. We provide a selection of plots, that helps visualise typical clinical and will be enough for most use cases, and for publishing to most journals.</p>
+<p>If you want to go further, have a look at these sites with suggestions and sample code for data plotting:</p>
+<ul>
+<li><p><a href="https://r-charts.com/"><em>R</em> Charts</a>: Extensive gallery with great plots</p></li>
+<li><p><a href="https://r-graph-gallery.com/"><em>R</em> Graph gallery</a>: Another gallery with great graphs</p></li>
+<li><p><a href="https://graphicsprinciples.github.io/">graphics principles</a>: Easy to follow recommendations for clear visuals.</p></li>
+</ul>
+<section id="available-plots" class="level3" data-number="4.1.1"><h3 data-number="4.1.1" class="anchored" data-anchor-id="available-plots">
+<span class="header-section-number">4.1.1</span> Available plots</h3>
+<p>Below are the available plot types listed.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 15%">
+<col style="width: 77%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: left;">Data type</th>
+<th style="text-align: left;">Plot type</th>
+<th style="text-align: left;">Description</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Violin plot</td>
+<td style="text-align: left;">A modern alternative to the classic boxplot to visualise data distribution</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Scatter plot</td>
+<td style="text-align: left;">A classic way of showing the association between to variables</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">continuous</td>
+<td style="text-align: left;">Box plot</td>
+<td style="text-align: left;">A classic way to plot data distribution by groups</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Stacked relative barplot</td>
+<td style="text-align: left;">Create relative stacked barplots to show the distribution of categorical levels</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Side-by-side barplot</td>
+<td style="text-align: left;">Create side-by-side barplot to show the distribution of categorical levels</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Stacked horizontal bars</td>
+<td style="text-align: left;">A classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Sankey plot</td>
+<td style="text-align: left;">A way of visualising change between groups</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dichotomous</td>
+<td style="text-align: left;">Euler diagram</td>
+<td style="text-align: left;">Generate area-proportional Euler diagrams to display set relationships</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Stacked relative barplot</td>
+<td style="text-align: left;">Create relative stacked barplots to show the distribution of categorical levels</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Side-by-side barplot</td>
+<td style="text-align: left;">Create side-by-side barplot to show the distribution of categorical levels</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Stacked horizontal bars</td>
+<td style="text-align: left;">A classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">categorical</td>
+<td style="text-align: left;">Sankey plot</td>
+<td style="text-align: left;">A way of visualising change between groups</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="ref-tissuep1995" class="csl-entry" role="listitem">
-<span>“Tissue Plasminogen Activator for Acute Ischemic Stroke.”</span> 1995. <em>New England Journal of Medicine</em> 333 (24): 1581–88. <a href="https://doi.org/10.1056/nejm199512143332401">https://doi.org/10.1056/nejm199512143332401</a>.
 </div>
-</div>
+
+
 </section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -377,7 +457,7 @@ Kraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen, and Grethe
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/freesearchr\.github\.io\/FreesearchR-knowledge\/");
+        var filterRegex = new RegExp("https:\/\/freesearchr\.github\.io\/FreesearchR-knowledge\/sw");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -704,13 +784,13 @@ Kraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen, and Grethe
     }
   });
   </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="./app.html" class="pagination-link" aria-label="FreesearchR app intro">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>  <span class="chapter-title">FreesearchR app intro</span></span>
+      <a href="../app/data_types.sw.html" class="pagination-link" aria-label="Understanding data types">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>  <span class="chapter-title">Understanding data types</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./case_overlapping_measures.html" class="pagination-link" aria-label="Overlapping measures">
-        <span class="nav-page-text"><span class="chapter-number">3</span>  <span class="chapter-title">Overlapping measures</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../intro/missingness.sw.html" class="pagination-link" aria-label="missingness">
+        <span class="nav-page-text"><span class="chapter-number">5</span>  <span class="chapter-title">missingness</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

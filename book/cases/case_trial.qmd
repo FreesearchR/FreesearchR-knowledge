@@ -1,7 +1,6 @@
 ---
 title: "Randomised clinical trial in stroke"
 format: html
-bibliography: references.bib
 ---
 
 ## A clinical trial on neuroprotection in stroke

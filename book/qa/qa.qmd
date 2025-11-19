@@ -1,0 +1,23 @@
+---
+title: "Questions and answers"
+format: html
+---
+
+## Questions and answers
+
+Below we have collected some user questions and answers to help you get started with common tasks.
+
+### On summary statistics
+
+>>> But I want to ask a question
+>>> I want to know to get summary statistics for numeric variable. So how I can get for this program
+
+You can find basic statistics mainly in two places. In the "Prepare" -> "Overview and filter" you can click "Browse observations". Here you can see basic statistics in the top row for each variable. In the "Evaluate" -> "Characteristics" you can generate a table to see some additional details. 
+
+In the sidebar you can choose between "Minimal" or "Extensive" detail level.
+
+### On data comparisons
+
+>>> Then what about chi square value to see whether two categories related or not because I was seeing only correlation
+
+When you generate characteristics table, you can choose in sidebare to stratify (or group) the table and then to compare the strata (groups). This will give you relevant comparisons.

@@ -9,13 +9,19 @@ book:
   date: "8/4/2025"
   chapters:
     - index.qmd
+    - qa/qa.qmd
     - part: "FreesearchR app"
       chapters: 
-        - app.qmd
+        - app/app.qmd
+        - app/data_types.qmd
+        - app/visuals.qmd
+    - part: "Background"
+      chapters: 
+        - intro/missingness.qmd
     - part: "Case studies"
       chapters: 
-        - case_trial.qmd
-        - case_overlapping_measures.qmd
+        - cases/case_trial.qmd
+        - cases/case_overlapping_measures.qmd
     - part: "Further learning"
       chapters: 
         - further.qmd
@@ -28,6 +34,9 @@ format:
     theme:
       - cosmo
       - brand
+
+execute:
+  freeze: auto
 
 babelquarto:
   languagelinks: sidebar
