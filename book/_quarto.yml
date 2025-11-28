@@ -10,14 +10,17 @@ book:
   chapters:
     - index.qmd
     - qa/qa.qmd
-    - part: "FreesearchR app"
+    - part: "FreesearchR app documentation"
       chapters: 
         - app/app.qmd
+        # - app/videos.qmd
         - app/data_types.qmd
         - app/visuals.qmd
-    - part: "Background"
+    - part: "Background and data considerations"
       chapters: 
-        - intro/missingness.qmd
+        - background/missingness.qmd
+        - background/presentations.qmd
+        - background/community.qmd
     - part: "Case studies"
       chapters: 
         - cases/case_trial.qmd
@@ -41,14 +44,15 @@ execute:
 babelquarto:
   languagelinks: sidebar
   languagecodes:
-  - name: da
-    text: "Læs på dansk"
-  - name: sw
-    text: "Soma kwa kiswahili"
+  # - name: da
+  #   text: "Læs på dansk"
+  # - name: sw
+  #   text: "Soma kwa kiswahili"
   - name: en
     text: "Read in English"
   mainlanguage: 'en'
-  languages: ['da', 'sw']
+  languages: "en"
+  # ['da', 'sw']
 title-da: FreesearchR viden
 title-sw: FreesearchR Maarifa
 description-da: Introduktion til dataanalyse med FreesearchR
