@@ -1,6 +1,6 @@
 Package: FreesearchR-knowledge
 Title: The FreesearchR knowledge data base
-Version: 25.9.1
+Version: 25.11.1
 Authors@R: 
     person("Andreas Gammelgaard", "Damsbo", , "agdamsbo", role = c("aut", "cre"))
 Description: A collection of instructions for FreesearchR app, suggestions on data analysis and advices for further learning.

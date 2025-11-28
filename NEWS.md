@@ -2,7 +2,7 @@
 
 # FreesearchR-knowledge NEWS
 
-## Unreleased (2025-09-26)
+## Unreleased (2025-11-28)
 
 #### New features
 
@@ -11,6 +11,15 @@
 
 #### Docs
 
+-   including new chapters on community and presentations
+    ([e43835d](https://github.com/FreesearchR/FreesearchR-knowledge/tree/e43835d9b98a0fc93071fedfa737b812caf106c4))
+-   new chapters
+    ([7d5e56a](https://github.com/FreesearchR/FreesearchR-knowledge/tree/7d5e56adeac519e964eb511f31cf779c26ee879e))
+-   getting started docs migrated
+    ([7843bb5](https://github.com/FreesearchR/FreesearchR-knowledge/tree/7843bb597eccc568a38ab0cb2adab96f27ed7420))
+-   All vignettes from the FreesearchR app package was moved to this
+    knowledge base.
+    ([f8470fb](https://github.com/FreesearchR/FreesearchR-knowledge/tree/f8470fb1e434889c627d09aa54234740f0f39b9b))
 -   proper name
     ([5c01ebb](https://github.com/FreesearchR/FreesearchR-knowledge/tree/5c01ebb7b7d67a93224e95a0aa2851846ff894c9))
 -   first steps for a proper structure
@@ -38,4 +47,4 @@
     ([f4e2002](https://github.com/FreesearchR/FreesearchR-knowledge/tree/f4e200221c605ed3dc5b91cdc5a9e3ce49d1cffc))
 
 Full set of changes:
-[`2d82fa6...a28ce36`](https://github.com/FreesearchR/FreesearchR-knowledge/compare/2d82fa6...a28ce36)
+[`2d82fa6...e43835d`](https://github.com/FreesearchR/FreesearchR-knowledge/compare/2d82fa6...e43835d)
