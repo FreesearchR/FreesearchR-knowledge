@@ -23,7 +23,7 @@ library(autonewsmd)
 an$generate()
 an$write(force = TRUE)}
 
-
+usethis::use_github_release()
 
 ## On custom translations
 ## 

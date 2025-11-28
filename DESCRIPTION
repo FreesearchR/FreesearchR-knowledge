@@ -16,4 +16,3 @@ Suggests:
 Imports: 
     autonewsmd,
     git2r
-RoxygenNote: 7.0.0
