@@ -1,0 +1,71 @@
+---
+title: "Overlapping measures"
+bibliography: references.bib
+---
+
+## Overlapping measures
+
+For the following case study on using the FreesearchR tool, the following article will be used as an example: @damsbo2020.
+
+This article includes a table of baseline characteristics, a regression table and an Euler plot of overlapping markers of poor mental health after stroke. Based on an anonymised dataset, the basics of each of these elements will be recreated in the following.
+
+### The Euler plot
+
+The Euler plot is an area-accurate plot of overlapping features. This can be used to visualise how patients suffer from several diseases or how symptoms of mental health are overlapping.
+
+Plotting the Euler plot is based on dichotomised categorical variables (2 levels). In the FreesearchR app, categorical variables can be created from continuous data.
+
+### Load the data
+
+Start of by launching the [***FreesearchR*** app (click this link)](https://app.freesearchr.org).
+
+1.  Go to the "Get started" tab,
+2.  under "Choose your data source", select "Local or sample data",
+3.  then under "Select data source", select "stRoke", and
+4.  then under "Select a dataset", select "trial".
+
+This should load the data, and you can press the "Quick overview" to preview the data classes and missing values.
+
+In the section "Select variables for final import", you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.
+
+### Baseline characteristics
+
+See ["Baseline characteristics"](https://freesearchr.github.io/FreesearchR-knowledge/case_trial.html#trial_baseline) on how to create a baseline characteristics table.
+
+### Plotting
+
+Now on to the plotting. I will start by showing how to visualise the overlapping features of hypertension, diabetes and living alone:
+
+1.  Open the "Visuals" panel,
+2.  select "hypertension" as the "Response variable" to see plotting options, and
+3.  select "Euler diagram" and
+4.  select "diabetes" and "cohabitation" as "Additional variables",
+5.  click "Plot".
+
+#### Creating categorical variables
+
+If you want to create new dichotomous (2-level categorical) variables from continuous data, then follow the below steps (as an exaple the "mfi_6" variable will be used):
+
+1.  Go to "Prepare" -\> "Edit and create data", the
+2.  select "New factor" (factor is the technical term for a categorical variable), and then
+3.  in the pop-up window, under "Variable to cut", select "mfi_6",
+4.  keep the "Method" "fixed", and choose "2" under "Number of breaks" to create a categorical variable with 2 levels.
+5.  Select the cut-off between the two levels to 12 for the "mfi_6" variable, and then
+6.  click "Create factor variable".
+
+A new variable called "mfi_6_cut" is now created. Repeat the above steps for other variables you want to cut.
+
+#### (Re)ordering categorical variables
+
+Some scoring systems are designed to have a higher score correspond to worse outcome and others are opposite. To specify the order of the categorical levels and allow for correct plotting with the Euler plot (the plots the first level), follow these steps:
+
+1.  While in the same panel ("Prepare" -\> "Edit and create data"), click the "Reorder factor levels", and
+2.  order the levels with the first level at the top (drag in the small 3x3 dot grid to the left of the level names), and then
+3.  click "Update factor variable"
+
+### Now its time for experimentation
+
+1.  Try create categorical variables from the age variable to create a baseline table grouped by age below or above 70.
+2.  Create an Euler diagram of age (below/above 70), cohabitation and male sex.
+3.  Create and Euler diagram of MFI, MDI (cut-off at 20) and WHO (cut-off at 17). Please note the the WHO should range from 0-100, but the included variable is scaled down by a factor of 4 and ranges 0-25.
+4.  ...

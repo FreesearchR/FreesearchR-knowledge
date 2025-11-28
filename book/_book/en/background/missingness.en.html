@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/cases/case_overlapping_measures.html" />
-<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/en/cases/case_overlapping_measures.en.html" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/en/background/missingness.en.html" />
+<link rel="alternate" hreflang="en" href="https://freesearchr.github.io/FreesearchR-knowledge/en/en/background/missingness.en.en.html" />
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.30">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>9  Overlapping measures – FreesearchR knowledge base</title>
+
+
+<title>5&nbsp; missingness – FreesearchR knowledge base</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,33 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script><script src="../site_libs/quarto-nav/headroom.min.js"></script><script src="../site_libs/clipboard/clipboard.min.js"></script><script src="../site_libs/quarto-search/autocomplete.umd.js"></script><script src="../site_libs/quarto-search/fuse.min.js"></script><script src="../site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="../">
-<link href="../further.html" rel="next">
-<link href="../cases/case_trial.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script><script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="../site_libs/quarto-html/popper.min.js"></script><script src="../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../site_libs/quarto-html/anchor.min.js"></script><link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../background/presentations.en.html" rel="next">
+<link href="../app/visuals.en.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script><link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -75,26 +71,33 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+
+
 </head>
+
 <body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../cases/case_trial.html">Case studies</a></li>
-<li class="breadcrumb-item"><a href="../cases/case_overlapping_measures.html"><span class="chapter-number">9</span>  <span class="chapter-title">Overlapping measures</span></a></li>
-</ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../background/missingness.en.html">Background and data considerations</a></li><li class="breadcrumb-item"><a href="../background/missingness.en.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">missingness</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../">FreesearchR knowledge base</a> 
     </div>
@@ -104,21 +107,18 @@ div.csl-indent {
         <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
-    <div class="dropdown" id="languages-links-parent">
-<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> Read in English</button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="https://freesearchr.github.io/FreesearchR-knowledge/cases/case_overlapping_measures.html" id="language-link-en">Read in English</a></li></ul>
-</div>
-<div class="sidebar-menu-container"> 
+    <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.en.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../qa/qa.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">Questions and answers</span></span></a>
+  <a href="../qa/qa.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Questions and answers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -129,27 +129,27 @@ div.csl-indent {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../app/app.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">FreesearchR app intro</span></span></a>
+  <a href="../app/app.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FreesearchR app intro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../app/data_types.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">Understanding data types</span></span></a>
+  <a href="../app/data_types.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Understanding data types</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../app/visuals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Options for data visuals</span></span></a>
+  <a href="../app/visuals.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Options for data visuals</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
@@ -158,27 +158,27 @@ div.csl-indent {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../background/missingness.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>  <span class="chapter-title">missingness</span></span></a>
+  <a href="../background/missingness.en.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">missingness</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../background/presentations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>  <span class="chapter-title">Presentations</span></span></a>
+  <a href="../background/presentations.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Presentations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../background/community.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>  <span class="chapter-title">A community</span></span></a>
+  <a href="../background/community.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">A community</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
@@ -187,21 +187,21 @@ div.csl-indent {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../cases/case_trial.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></span></a>
+  <a href="../cases/case_trial.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Randomised clinical trial in stroke</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../cases/case_overlapping_measures.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">9</span>  <span class="chapter-title">Overlapping measures</span></span></a>
+  <a href="../cases/case_overlapping_measures.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Overlapping measures</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
@@ -210,49 +210,48 @@ div.csl-indent {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../further.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>  <span class="chapter-title">Further learning</span></span></a>
+  <a href="../further.en.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Further learning</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../references.html" class="sidebar-item-text sidebar-link">
+  <a href="../references.en.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Appendices</span></span>
+  </li>
     </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-<li>
-<a href="#overlapping-measures" id="toc-overlapping-measures" class="nav-link active" data-scroll-target="#overlapping-measures"><span class="header-section-number">9.1</span> Overlapping measures</a>
+  <li><a href="#considering-missing-observations" id="toc-considering-missing-observations" class="nav-link active" data-scroll-target="#considering-missing-observations"><span class="header-section-number">5.1</span> Considering missing observations</a>
   <ul class="collapse">
-<li><a href="#the-euler-plot" id="toc-the-euler-plot" class="nav-link" data-scroll-target="#the-euler-plot"><span class="header-section-number">9.1.1</span> The Euler plot</a></li>
-  <li><a href="#load-the-data" id="toc-load-the-data" class="nav-link" data-scroll-target="#load-the-data"><span class="header-section-number">9.1.2</span> Load the data</a></li>
-  <li><a href="#baseline-characteristics" id="toc-baseline-characteristics" class="nav-link" data-scroll-target="#baseline-characteristics"><span class="header-section-number">9.1.3</span> Baseline characteristics</a></li>
-  <li><a href="#plotting" id="toc-plotting" class="nav-link" data-scroll-target="#plotting"><span class="header-section-number">9.1.4</span> Plotting</a></li>
-  <li><a href="#now-its-time-for-experimentation" id="toc-now-its-time-for-experimentation" class="nav-link" data-scroll-target="#now-its-time-for-experimentation"><span class="header-section-number">9.1.5</span> Now its time for experimentation</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">5.1.1</span> Further reading</a></li>
+  </ul></li>
   </ul>
-</li>
-  </ul></nav>
-</div>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="../cases/case_trial.html">Case studies</a></li>
-<li class="breadcrumb-item"><a href="../cases/case_overlapping_measures.html"><span class="chapter-number">9</span>  <span class="chapter-title">Overlapping measures</span></a></li>
-</ol></nav><div class="quarto-title">
-<h1 class="title">
-<span class="chapter-number">9</span>  <span class="chapter-title">Overlapping measures</span>
-</h1>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../background/missingness.en.html">Background and data considerations</a></li><li class="breadcrumb-item"><a href="../background/missingness.en.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">missingness</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">missingness</span></h1>
 </div>
 
 
@@ -266,71 +265,21 @@ div.csl-indent {
   
 
 
-</header><section id="overlapping-measures" class="level2" data-number="9.1"><h2 data-number="9.1" class="anchored" data-anchor-id="overlapping-measures">
-<span class="header-section-number">9.1</span> Overlapping measures</h2>
-<p>For the following case study on using the FreesearchR tool, the following article will be used as an example: <span class="citation" data-cites="damsbo2020">Damsbo et al. (<a href="../references.html#ref-damsbo2020" role="doc-biblioref">2020</a>)</span>.</p>
-<p>This article includes a table of baseline characteristics, a regression table and an Euler plot of overlapping markers of poor mental health after stroke. Based on an anonymised dataset, the basics of each of these elements will be recreated in the following.</p>
-<section id="the-euler-plot" class="level3" data-number="9.1.1"><h3 data-number="9.1.1" class="anchored" data-anchor-id="the-euler-plot">
-<span class="header-section-number">9.1.1</span> The Euler plot</h3>
-<p>The Euler plot is an area-accurate plot of overlapping features. This can be used to visualise how patients suffer from several diseases or how symptoms of mental health are overlapping.</p>
-<p>Plotting the Euler plot is based on dichotomised categorical variables (2 levels). In the FreesearchR app, categorical variables can be created from continuous data.</p>
-</section><section id="load-the-data" class="level3" data-number="9.1.2"><h3 data-number="9.1.2" class="anchored" data-anchor-id="load-the-data">
-<span class="header-section-number">9.1.2</span> Load the data</h3>
-<p>Start of by launching the <a href="https://app.freesearchr.org"><strong><em>FreesearchR</em></strong> app (click this link)</a>.</p>
-<ol type="1">
-<li>Go to the “Get started” tab,</li>
-<li>under “Choose your data source”, select “Local or sample data”,</li>
-<li>then under “Select data source”, select “stRoke”, and</li>
-<li>then under “Select a dataset”, select “trial”.</li>
-</ol>
-<p>This should load the data, and you can press the “Quick overview” to preview the data classes and missing values.</p>
-<p>In the section “Select variables for final import”, you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.</p>
-</section><section id="baseline-characteristics" class="level3" data-number="9.1.3"><h3 data-number="9.1.3" class="anchored" data-anchor-id="baseline-characteristics">
-<span class="header-section-number">9.1.3</span> Baseline characteristics</h3>
-<p>See <a href="https://freesearchr.github.io/FreesearchR-knowledge/case_trial.html#trial_baseline">“Baseline characteristics”</a> on how to create a baseline characteristics table.</p>
-</section><section id="plotting" class="level3" data-number="9.1.4"><h3 data-number="9.1.4" class="anchored" data-anchor-id="plotting">
-<span class="header-section-number">9.1.4</span> Plotting</h3>
-<p>Now on to the plotting. I will start by showing how to visualise the overlapping features of hypertension, diabetes and living alone:</p>
-<ol type="1">
-<li>Open the “Visuals” panel,</li>
-<li>select “hypertension” as the “Response variable” to see plotting options, and</li>
-<li>select “Euler diagram” and</li>
-<li>select “diabetes” and “cohabitation” as “Additional variables”,</li>
-<li>click “Plot”.</li>
-</ol>
-<section id="creating-categorical-variables" class="level4" data-number="9.1.4.1"><h4 data-number="9.1.4.1" class="anchored" data-anchor-id="creating-categorical-variables">
-<span class="header-section-number">9.1.4.1</span> Creating categorical variables</h4>
-<p>If you want to create new dichotomous (2-level categorical) variables from continuous data, then follow the below steps (as an exaple the “mfi_6” variable will be used):</p>
-<ol type="1">
-<li>Go to “Prepare” -&gt; “Edit and create data”, the</li>
-<li>select “New factor” (factor is the technical term for a categorical variable), and then</li>
-<li>in the pop-up window, under “Variable to cut”, select “mfi_6”,</li>
-<li>keep the “Method” “fixed”, and choose “2” under “Number of breaks” to create a categorical variable with 2 levels.</li>
-<li>Select the cut-off between the two levels to 12 for the “mfi_6” variable, and then</li>
-<li>click “Create factor variable”.</li>
-</ol>
-<p>A new variable called “mfi_6_cut” is now created. Repeat the above steps for other variables you want to cut.</p>
-</section><section id="reordering-categorical-variables" class="level4" data-number="9.1.4.2"><h4 data-number="9.1.4.2" class="anchored" data-anchor-id="reordering-categorical-variables">
-<span class="header-section-number">9.1.4.2</span> (Re)ordering categorical variables</h4>
-<p>Some scoring systems are designed to have a higher score correspond to worse outcome and others are opposite. To specify the order of the categorical levels and allow for correct plotting with the Euler plot (the plots the first level), follow these steps:</p>
-<ol type="1">
-<li>While in the same panel (“Prepare” -&gt; “Edit and create data”), click the “Reorder factor levels”, and</li>
-<li>order the levels with the first level at the top (drag in the small 3x3 dot grid to the left of the level names), and then</li>
-<li>click “Update factor variable”</li>
-</ol></section></section><section id="now-its-time-for-experimentation" class="level3" data-number="9.1.5"><h3 data-number="9.1.5" class="anchored" data-anchor-id="now-its-time-for-experimentation">
-<span class="header-section-number">9.1.5</span> Now its time for experimentation</h3>
-<ol type="1">
-<li>Try create categorical variables from the age variable to create a baseline table grouped by age below or above 70.</li>
-<li>Create an Euler diagram of age (below/above 70), cohabitation and male sex.</li>
-<li>Create and Euler diagram of MFI, MDI (cut-off at 20) and WHO (cut-off at 17). Please note the the WHO should range from 0-100, but the included variable is scaled down by a factor of 4 and ranges 0-25.</li>
-<li>…</li>
-</ol>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-damsbo2020" class="csl-entry" role="listitem">
-Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne Kaergaard Mortensen. 2020. <span>“Predictors for Wellbeing and Characteristics of Mental Health After Stroke.”</span> <em>Journal of Affective Disorders</em> 264 (March): 358–64. <a href="https://doi.org/10.1016/j.jad.2019.12.032">https://doi.org/10.1016/j.jad.2019.12.032</a>.
-</div>
-</div>
-</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</header>
+
+
+<section id="considering-missing-observations" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="considering-missing-observations"><span class="header-section-number">5.1</span> Considering missing observations</h2>
+<section id="further-reading" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">5.1.1</span> Further reading</h3>
+<p>The authors behind the <a href="https://finalfit.org/index.html">{finalfit}-package</a> have shared a very comprehensive article on what to do and think about missing observations in your data. Please <a href="https://finalfit.org/articles/missing.html">have a look here</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -402,7 +351,7 @@ Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/freesearchr\.github\.io\/FreesearchR-knowledge\/");
+        var filterRegex = new RegExp("https:\/\/freesearchr\.github\.io\/FreesearchR-knowledge\/en");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -728,14 +677,16 @@ Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle 
       }
     }
   });
-  </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="../cases/case_trial.html" class="pagination-link" aria-label="Randomised clinical trial in stroke">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>  <span class="chapter-title">Randomised clinical trial in stroke</span></span>
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../app/visuals.en.html" class="pagination-link" aria-label="Options for data visuals">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Options for data visuals</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../further.html" class="pagination-link" aria-label="Further learning">
-        <span class="nav-page-text"><span class="chapter-number">10</span>  <span class="chapter-title">Further learning</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../background/presentations.en.html" class="pagination-link" aria-label="Presentations">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Presentations</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -744,5 +695,4 @@ Damsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle 
 
 
 
-</body>
-</html>
+</body></html>

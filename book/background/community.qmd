@@ -1,0 +1,28 @@
+---
+title: "A community"
+format: html
+---
+
+## A FreesearchR community
+
+Moving the FreesearchR project and app forward very much depends on user feedback and inputs from the community of the people around the project.
+
+### The Zanzibar FreesearchR user group
+
+During October 2025 two FreesearchR workshops were conducted at the Jitimai Hospital in Zanzibar City, Zanzibar, Tanzania, with participation from different hospital staff members including medical students, therapists, data administrators and medical doctors, as well as staff from the Zanzibar Health Research Institute.
+
+After these workshops a Zanzibar FreesearchR user group was established mainly based on a WhatsApp group chat.
+
+This group chat has been the basis for discussions on specific features, feedback, help and feature requests. On November 26, 2025 a user survey was launched requesting votes on what to prioritise next, with members allowed to vote for one or more option. Options were chosen based on previous feedback and discussions and were
+
+-   Video explanations and examples
+-   Online workshops
+-   More advanced analyses
+-   More options for plotting data
+-   Translating to kiswahili and other languages
+
+In two days this survey engaged 8 members of the user group with most voting for the first option, and work was promptly started to introduce video instructions. The other options will also be considered moving the project forward.
+
+### Other communities
+
+Other communities may be established when possible.

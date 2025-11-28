@@ -1,0 +1,21 @@
+---
+title: "Presentations"
+format: html
+bibliography: references.bib
+---
+
+## Presenting the FreesearchR app and project
+
+In addition to making the FreesearchR app freely available [in the browser](https://app.freesearchr.org) and as [a package for R](https://agdamsbo.github.io/FreesearchR/), the project has also been presented publicly at different occasions.
+
+### European Stroke Organisation Conference 2025
+
+The FreesearchR app was first presented publicly as an electronic poster at the European Stroke Organisation Conference (ESOC), Helsinki, Finland in May 2025. The title of the poster was "Removing barriers in clinical stroke research: A guided, free and open-source data analysis tool".[@11theur2025] At the time of submitting the abstract for the conference, the working title of the project was "freesearcheR", which was since changed to "FreesearchR", though the overall aim has remained the same.
+
+### Zanzibar Workshops
+
+During October 2025, two workshops introducing the use of the FreesearchR app was conducted at the Jitimai Hospital in Zanzibar City, Zanzibar, Tanzania. The first day, different features of the app was introduced working with sample data. The second day participants brought their own data sets and projects, which was then the basis of the workshop to explore different options using the FreesearchR app.
+
+### Forskningens Dag 2025 (Research Day Gødstrup 2025)
+
+At the "Forskningens Dag 2025" at Gødstrup Regional Hospital, Region Midt, Denmark the FreesearchR project was presented with a physical poster on November 5, 2025.

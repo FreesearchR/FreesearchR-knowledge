@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.en.html",
+    "href": "index.en.html",
     "title": "FreesearchR knowledge base",
     "section": "",
     "text": "Preface\nThis book will form the knowledge data base that goes with the FreesearchR project. This will contain a basic introduction to data science and data analysis as a foundation for starting to use the FreesearchR app.\nKey motivations for this project are to\n\nlower the barrier to do data analysis\nempower clinicians to perform data analysis on own data locally\nprovide learners with basic knowledge to make informed decisions\n\nThe main audience for this project is clinicians, researchers and students with a need for basic analytical tools and knowledge to start interpreting clinical data. The methods used are general and can be used beyond this main audience.\nThis knowledge database will mainly consist of instructions and descriptions for the FreesearchR app as well as a collection of links and references for recommended further reading and learning.",
@@ -10,8 +10,8 @@
     ]
   },
   {
-    "objectID": "qa/qa.html",
-    "href": "qa/qa.html",
+    "objectID": "qa/qa.en.html",
+    "href": "qa/qa.en.html",
     "title": "1  Questions and answers",
     "section": "",
     "text": "1.1 Questions and answers\nBelow we have collected some user questions and answers to help you get started with common tasks.",
@@ -20,8 +20,8 @@
     ]
   },
   {
-    "objectID": "qa/qa.html#questions-and-answers",
-    "href": "qa/qa.html#questions-and-answers",
+    "objectID": "qa/qa.en.html#questions-and-answers",
+    "href": "qa/qa.en.html#questions-and-answers",
     "title": "1  Questions and answers",
     "section": "",
     "text": "1.1.1 On summary statistics\n\nBut I want to ask a question I want to know to get summary statistics for numeric variable. So how I can get for this program?\n\nYou can find basic statistics mainly in two places. In the “Prepare” -&gt; “Overview and filter” you can click “Browse observations”. Here you can see basic statistics in the top row for each variable. In the “Evaluate” -&gt; “Characteristics” you can generate a table to see some additional details.\nIn the sidebar you can choose between “Minimal” or “Extensive” detail level.\n\n\n1.1.2 On data comparisons\n\nThen what about chi square value to see whether two categories related or not because I was seeing only correlation?\n\nWhen you generate characteristics table, you can choose in sidebar to stratify (or group) the table and then to compare the strata (groups). This will give you relevant comparisons.",
@@ -30,8 +30,8 @@
     ]
   },
   {
-    "objectID": "app/app.html",
-    "href": "app/app.html",
+    "objectID": "app/app.en.html",
+    "href": "app/app.en.html",
     "title": "2  FreesearchR app intro",
     "section": "",
     "text": "3 Getting started with FreesearchR\nBelow is a simple walk-trough and basic descriptions on the different features of the FreesearchR app.",
@@ -41,8 +41,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#launching",
-    "href": "app/app.html#launching",
+    "objectID": "app/app.en.html#launching",
+    "href": "app/app.en.html#launching",
     "title": "2  FreesearchR app intro",
     "section": "3.1 Launching",
     "text": "3.1 Launching\nThe easiest way to get started is to launch the onlie version of the app (click this link). Please be aware not to upload sensitive data in this version as data security can not be guaranteed in this online environment. The app can easily be run from R on your own computer by running the code below (read more on running locally here):\n\nrequire(\"pak\")\npak::pak(\"agdamsbo/FreesearchR\")\nlibrary(FreesearchR)\nFreesearchR::launch_FreesearchR()\n\nAs a small note, a standalone Windows app version is on the drawing board as well, but no time frame is currently available.",
@@ -52,8 +52,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#get-started",
-    "href": "app/app.html#get-started",
+    "objectID": "app/app.en.html#get-started",
+    "href": "app/app.en.html#get-started",
     "title": "2  FreesearchR app intro",
     "section": "3.2 Get started",
     "text": "3.2 Get started\nOnce in the app, get started by loading your data. You have three options available for importing data: file upload, REDCap server export and local or sample data.\nAfter choosing a data source nad importing data, you can preview the basic data structure and missing observations, set a threshold to filter data by completeness and further manually specify variables to include for analyses.\n\n3.2.1 File upload\nSeveral data file formats are supported for easy import (csv, txt, xls(x), ods, rds, dta). If importing workbooks (xls(x) or ods), you are prompted to specify sheet(s) to import. If choosing multiple sheets, these are automatically merged by common variable(s), so please make sure that key/ID variables are correctly named identically.\n\n\n3.2.2 REDCap server export\nExport data directly from a REDCap server. You need to first generate an API-token (see these instruction) in REDCap. Make sure you have the necessary rights to do so.\nPlease don’t store the API-key on your device unless encrypted or in a keyring, as this may compromise data safety. Log in to your REDCap server and retrieve the token when needed.\nType the correct web address of your REDCap server.\nThe module will validate the information and you can click “Connect”.\nThis will unfold options to preview your data dictionary (the main database metadata), choose fields/variables to download as well as filtering options.\n\n\n3.2.3 Local or sample data\nWhen opening the online hosted app, you can load some sample data to try out the app. When running the app locally from R on your own computer, you will find all data frames loaded in your environment here. This extends the possible uses of this app to allow for quick and easy data insights and code generation.",
@@ -63,8 +63,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#prepare",
-    "href": "app/app.html#prepare",
+    "objectID": "app/app.en.html#prepare",
+    "href": "app/app.en.html#prepare",
     "title": "2  FreesearchR app intro",
     "section": "3.3 Prepare",
     "text": "3.3 Prepare\nThis is the panel to prepare data for evaluation and analyses and get a good overview of your data, check data is classed and formatted correctly, perform simple modifications and filter data.\n\n3.3.1 Summary\nHere, the data variables can be inspected with a simple visualisation and a few key measures. Also, data filtering is available at two levels:\n\nData type filtering allows to filter by variable data type\nObservations level filtering allow to filter data by variable\n\n\n\n3.3.2 Modify\nRe-class, rename, and relabel variables. Subset data, create new variables and reorder factor levels. Also, compare the modified dataset to the original and restore the original data.",
@@ -74,8 +74,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#evaluate",
-    "href": "app/app.html#evaluate",
+    "objectID": "app/app.en.html#evaluate",
+    "href": "app/app.en.html#evaluate",
     "title": "2  FreesearchR app intro",
     "section": "3.4 Evaluate",
     "text": "3.4 Evaluate\nThis panel allows for basic data evaluation.\n\n3.4.1 Characteristics\nCreate a classical baseline characteristics table with optional data stratification and comparisons.\n\n\n3.4.2 Correlation matrix\nVisualise variable correlations and get suggestions to exclude highly correlated variables.",
@@ -85,8 +85,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#visuals",
-    "href": "app/app.html#visuals",
+    "objectID": "app/app.en.html#visuals",
+    "href": "app/app.en.html#visuals",
     "title": "2  FreesearchR app intro",
     "section": "3.5 Visuals",
     "text": "3.5 Visuals\nThere are a number of plotting options to visualise different aspects of the data.\nBelow are the available plot types listed.\n\n\n\n\n\n\n\n\n\n\nData type\nPlot type\nDescription\n\n\n\n\ncontinuous\nViolin plot\nA modern alternative to the classic boxplot to visualise data distribution\n\n\ncontinuous\nScatter plot\nA classic way of showing the association between to variables\n\n\ncontinuous\nBox plot\nA classic way to plot data distribution by groups\n\n\ndichotomous\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ndichotomous\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ndichotomous\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ndichotomous\nSankey plot\nA way of visualising change between groups\n\n\ndichotomous\nEuler diagram\nGenerate area-proportional Euler diagrams to display set relationships\n\n\ncategorical\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ncategorical\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ncategorical\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ncategorical\nSankey plot\nA way of visualising change between groups\n\n\n\n\n\nExport the plots directly from the sidebar with easily adjusted plot dimensions for your next publication.\nAlso copy the code to generate the plot in your own R-environment and fine tune all the small details.",
@@ -96,8 +96,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#regression",
-    "href": "app/app.html#regression",
+    "objectID": "app/app.en.html#regression",
+    "href": "app/app.en.html#regression",
     "title": "2  FreesearchR app intro",
     "section": "3.6 Regression",
     "text": "3.6 Regression\nThis section is only intended for very simple explorative analyses and as a proof-of-concept for now. If you are doing complex regression analyses you should probably just write the code yourself.\nBelow are the available regression types listed.\n\n\n\n\n\n\n\n\n\n\n\nData type\nRegression model\nFunction\nStudy design\n\n\n\n\ncontinuous\nLinear regression model\nstats::lm\ncross-sectional\n\n\ndichotomous\nLogistic regression model\nstats::glm\ncross-sectional\n\n\ncategorical\nOrdinal logistic regression model\nMASS::polr\ncross-sectional\n\n\n\n\n\n\n3.6.1 Table\nGenerate simple regression models and get the results in a nice table. This will also be included in the exported report.\nThis will generate a combined table with both univariate regression model results for each included variable and a multivariate model with all variables included for explorative analyses.\n\n\n3.6.2 Plots\nPlot the coefficients from the regression models in a forest plot. Choose which model(s) to include.\n\n\n3.6.3 Model checks\nCheck model assumptions visually. Supported checks can be chosen.",
@@ -107,8 +107,8 @@
     ]
   },
   {
-    "objectID": "app/app.html#download",
-    "href": "app/app.html#download",
+    "objectID": "app/app.en.html#download",
+    "href": "app/app.en.html#download",
     "title": "2  FreesearchR app intro",
     "section": "3.7 Download",
     "text": "3.7 Download\n\n3.7.1 Report\nDownload a nice report with baseline characteristics and regression model results. Choose between MS Word or LibreOffice format.\n\n\n3.7.2 Data\nExport the modified dataset in different formats.\n\n\n3.7.3 Code\nSee all the code snippets from the different steps in your data evaluation.",
@@ -118,8 +118,8 @@
     ]
   },
   {
-    "objectID": "app/data_types.html",
-    "href": "app/data_types.html",
+    "objectID": "app/data_types.en.html",
+    "href": "app/data_types.en.html",
     "title": "3  Understanding data types",
     "section": "",
     "text": "3.1 A clinical data class\nTraditionally in R, data is identified by classes, like numeric, integer, double, logical, factor etc. These classes can be a little confusing from a clinical or operational standpoint. In the FreesearchR app, these classes has been simplified and modified to the following data types, that are assigned on a prioritised order like the following:\ndata_types() |&gt; purrr::imap(\\(.x,.i){\n  dplyr::bind_cols(\"type\"=.i,.x,.name_repair = \"unique_quiet\")\n  }) |&gt; dplyr::bind_rows() |&gt; \n  setNames(c(\"Data type\",\"Description\",\"Data classes included\")) |&gt; \n  knitr::kable()\n\n\n\n\n\n\n\n\n\nData type\nDescription\nData classes included\n\n\n\n\nempty\nVariable of all NAs\nAny class\n\n\nmonotone\nVariable with only one unique value\nAny class\n\n\ndichotomous\nVariable with only two unique values\nAny class\n\n\ncategorical\nFactor variable\nfactor (ordered or unordered)\n\n\ntext\nCharacter variable\ncharacter\n\n\ndatetime\nVariable of time, date or datetime values\nhms, Date, POSIXct and POSIXt\n\n\ncontinuous\nNumeric variable\nnumeric, integer or double\n\n\nunknown\nAnything not falling within the previous\nAny other class\nCategorising data in this way makes sense when making choices on how to evaluate and analyse data. This is used throughout the FreesearchR app to simplify data handling.",
@@ -129,8 +129,8 @@
     ]
   },
   {
-    "objectID": "app/visuals.html",
-    "href": "app/visuals.html",
+    "objectID": "app/visuals.en.html",
+    "href": "app/visuals.en.html",
     "title": "4  Options for data visuals",
     "section": "",
     "text": "4.1 Basic visualisations\nThe goal of FreesearchR is to keep things simple. Visuals can get very complicated. We provide a selection of plots, that helps visualise typical clinical and will be enough for most use cases, and for publishing to most journals.\nIf you want to go further, have a look at these sites with suggestions and sample code for data plotting:",
@@ -140,8 +140,8 @@
     ]
   },
   {
-    "objectID": "app/visuals.html#basic-visualisations",
-    "href": "app/visuals.html#basic-visualisations",
+    "objectID": "app/visuals.en.html#basic-visualisations",
+    "href": "app/visuals.en.html#basic-visualisations",
     "title": "4  Options for data visuals",
     "section": "",
     "text": "R Charts: Extensive gallery with great plots\nR Graph gallery: Another gallery with great graphs\ngraphics principles: Easy to follow recommendations for clear visuals.\n\n\n4.1.1 Available plots\nBelow are the available plot types listed.\n\n\n\n\n\n\n\n\n\n\nData type\nPlot type\nDescription\n\n\n\n\ncontinuous\nViolin plot\nA modern alternative to the classic boxplot to visualise data distribution\n\n\ncontinuous\nScatter plot\nA classic way of showing the association between to variables\n\n\ncontinuous\nBox plot\nA classic way to plot data distribution by groups\n\n\ndichotomous\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ndichotomous\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ndichotomous\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ndichotomous\nSankey plot\nA way of visualising change between groups\n\n\ndichotomous\nEuler diagram\nGenerate area-proportional Euler diagrams to display set relationships\n\n\ncategorical\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ncategorical\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ncategorical\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ncategorical\nSankey plot\nA way of visualising change between groups",
@@ -151,8 +151,8 @@
     ]
   },
   {
-    "objectID": "background/missingness.html",
-    "href": "background/missingness.html",
+    "objectID": "background/missingness.en.html",
+    "href": "background/missingness.en.html",
     "title": "5  missingness",
     "section": "",
     "text": "5.1 Considering missing observations",
@@ -162,8 +162,8 @@
     ]
   },
   {
-    "objectID": "background/missingness.html#considering-missing-observations",
-    "href": "background/missingness.html#considering-missing-observations",
+    "objectID": "background/missingness.en.html#considering-missing-observations",
+    "href": "background/missingness.en.html#considering-missing-observations",
     "title": "5  missingness",
     "section": "",
     "text": "5.1.1 Further reading\nThe authors behind the {finalfit}-package have shared a very comprehensive article on what to do and think about missing observations in your data. Please have a look here.",
@@ -173,8 +173,8 @@
     ]
   },
   {
-    "objectID": "background/presentations.html",
-    "href": "background/presentations.html",
+    "objectID": "background/presentations.en.html",
+    "href": "background/presentations.en.html",
     "title": "6  Presentations",
     "section": "",
     "text": "6.1 Presenting the FreesearchR app and project\nIn addition to making the FreesearchR app freely available in the browser and as a package for R, the project has also been presented publicly at different occasions.",
@@ -184,8 +184,8 @@
     ]
   },
   {
-    "objectID": "background/presentations.html#presenting-the-freesearchr-app-and-project",
-    "href": "background/presentations.html#presenting-the-freesearchr-app-and-project",
+    "objectID": "background/presentations.en.html#presenting-the-freesearchr-app-and-project",
+    "href": "background/presentations.en.html#presenting-the-freesearchr-app-and-project",
     "title": "6  Presentations",
     "section": "",
     "text": "6.1.1 European Stroke Organisation Conference 2025\nThe FreesearchR app was first presented publicly as an electronic poster at the European Stroke Organisation Conference (ESOC), Helsinki, Finland in May 2025. The title of the poster was “Removing barriers in clinical stroke research: A guided, free and open-source data analysis tool”.(“11th European Stroke Organisation Conference Abstracts  21-23 May 2025, Helsinki, Finland” 2025) At the time of submitting the abstract for the conference, the working title of the project was “freesearcheR”, which was since changed to “FreesearchR”, though the overall aim has remained the same.\n\n\n6.1.2 Zanzibar Workshops\nDuring October 2025, two workshops introducing the use of the FreesearchR app was conducted at the Jitimai Hospital in Zanzibar City, Zanzibar, Tanzania. The first day, different features of the app was introduced working with sample data. The second day participants brought their own data sets and projects, which was then the basis of the workshop to explore different options using the FreesearchR app.\n\n\n6.1.3 Forskningens Dag 2025 (Research Day Gødstrup 2025)\nAt the “Forskningens Dag 2025” at Gødstrup Regional Hospital, Region Midt, Denmark the FreesearchR project was presented with a physical poster on November 5, 2025.\n\n\n\n\n“11th European Stroke Organisation Conference Abstracts  21-23 May 2025, Helsinki, Finland.” 2025. European Stroke Journal 10 (2_suppl): 3–789. https://doi.org/10.1177/23969873251329993.",
@@ -195,8 +195,8 @@
     ]
   },
   {
-    "objectID": "background/community.html",
-    "href": "background/community.html",
+    "objectID": "background/community.en.html",
+    "href": "background/community.en.html",
     "title": "7  A community",
     "section": "",
     "text": "7.1 A FreesearchR community\nMoving the FreesearchR project and app forward very much depends on user feedback and inputs from the community of the people around the project.",
@@ -206,8 +206,8 @@
     ]
   },
   {
-    "objectID": "background/community.html#a-freesearchr-community",
-    "href": "background/community.html#a-freesearchr-community",
+    "objectID": "background/community.en.html#a-freesearchr-community",
+    "href": "background/community.en.html#a-freesearchr-community",
     "title": "7  A community",
     "section": "",
     "text": "7.1.1 The Zanzibar FreesearchR user group\nDuring October 2025 two FreesearchR workshops were conducted at the Jitimai Hospital in Zanzibar City, Zanzibar, Tanzania, with participation from different hospital staff members including medical students, therapists, data administrators and medical doctors, as well as staff from the Zanzibar Health Research Institute.\nAfter these workshops a Zanzibar FreesearchR user group was established mainly based on a WhatsApp group chat.\nThis group chat has been the basis for discussions on specific features, feedback, help and feature requests. On November 26, 2025 a user survey was launched requesting votes on what to prioritise next, with members allowed to vote for one or more option. Options were chosen based on previous feedback and discussions and were\n\nVideo explanations and examples\nOnline workshops\nMore advanced analyses\nMore options for plotting data\nTranslating to kiswahili and other languages\n\nIn two days this survey engaged 8 members of the user group with most voting for the first option, and work was promptly started to introduce video instructions. The other options will also be considered moving the project forward.\n\n\n7.1.2 Other communities\nOther communities may be established when possible.",
@@ -217,8 +217,8 @@
     ]
   },
   {
-    "objectID": "cases/case_trial.html",
-    "href": "cases/case_trial.html",
+    "objectID": "cases/case_trial.en.html",
+    "href": "cases/case_trial.en.html",
     "title": "8  Randomised clinical trial in stroke",
     "section": "",
     "text": "8.1 A clinical trial on neuroprotection in stroke\nThis case study will be based on the study “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS)”.(K. L. Kraglund et al. 2018)\nWe will not be able to include all data from this trial, but key tables and figures based on annonymised data from the trial included in the FreesearchR app will be used. These data are published for educational purposes in the “stRoke” package, which also includes a few tools for clinical stroke trials.(Damsbo 2023)\nThe TALOS trial was a randomised trial, with a predefined analysis plan and a published protocol.(K. Kraglund et al. 2015) As the trial was randomised, the main analyses where",
@@ -228,8 +228,8 @@
     ]
   },
   {
-    "objectID": "cases/case_trial.html#a-clinical-trial-on-neuroprotection-in-stroke",
-    "href": "cases/case_trial.html#a-clinical-trial-on-neuroprotection-in-stroke",
+    "objectID": "cases/case_trial.en.html#a-clinical-trial-on-neuroprotection-in-stroke",
+    "href": "cases/case_trial.en.html#a-clinical-trial-on-neuroprotection-in-stroke",
     "title": "8  Randomised clinical trial in stroke",
     "section": "",
     "text": "8.1.1 Load the data\nStart of by launching the FreesearchR app (click this link).\n\nGo to the “Get started” tab,\nunder “Choose your data source”, select “Local or sample data”,\nthen under “Select data source”, select “stRoke”, and\nthen under “Select a dataset”, select “trial”.\n\nThis should load the data, and you can press the “Quick overview” to preview the data classes and missing values.\nIn the section “Select variables for final import”, you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.\n\n\n8.1.2 Baseline characteristics\nHaving loaded the relevant dataset, we will go straight to generating a classic table for overview of the variables, typically what is included in papers as a Table 1.\n\nClick the “Evaluate” panel and\nselect the “Characteristics” sub-panel in the dropdown.\n\nThis is the section, where the characteristics panel is generated.\nIn the sidebar\n\nUnder “Select variable to stratify baseline”, select “active” to stratify by active trial treatment, and\nthen click “Evaluate”, wait a second and have a look at the table generated.\n\nThe table can be exported in a document format.\n\nGo to the “Download” panel at the top,\nunder “Report”, choose the desired document format (MS Word or LibreOffice), and\nclick “Download report”.\n\nThis will generate the report and it will get downloaded to your device. Find it in your downloads folder.\n\n\n8.1.3 Visualise the classic outcome\nThe modified Rankin Scale (mRS) score has been used as the main outcome for a large number stroke trials.(“Tissue Plasminogen Activator for Acute Ischemic Stroke” 1995; Berkhemer et al. 2015; Blauenfeldt et al. 2023) The TALOS trial also used the mRS, but did not include a graph to show the distribution. Let’s create that graph now then:\n\nGo to “Visuals”, and\nselect “mrs_6” as the “Response variable” to see plotting options, and\nselect “Stacked horizontal bars” and\nselect “active” as the secondary variable to stratify by trial treatment, then\nclick “Plot” to view the results.\n\nTo export the plot\n\nClick the “Download” sidebar section to unfold the download options,\nspecify the details and select file format, and\nclick “Download”.\n\nOpen the plot locally to verify the results.\n\n\n8.1.4 Now its time for experimentation\nThe above instructions are intended to introduce some of the functionality of the FreesearchR app. Please review the sections to experiment to explore the functions, but also to explore the data you are using. Here are some questions to think about:\n\nWhat is the median age for men? And for women?\nHow is the distribution of of mRS score at 1 month?\nHow is the distribution of mRS score at 6 months grouped by sex?\nIn the trial introducing IVT treatment(“Tissue Plasminogen Activator for Acute Ischemic Stroke” 1995), several outcome scales were used and binned. How would this be done with the FreesearchR app?\n…\n\n\n\n\n\nBerkhemer, Olvert A., Puck S. S. Fransen, Debbie Beumer, Lucie A. van den Berg, Hester F. Lingsma, Albert J. Yoo, Wouter J. Schonewille, et al. 2015. “A Randomized Trial of Intraarterial Treatment for Acute Ischemic Stroke.” New England Journal of Medicine 372 (1): 11–20. https://doi.org/10.1056/NEJMoa1411587.\n\n\nBlauenfeldt, Rolf Ankerlund, Niels Hjort, Jan Brink Valentin, Anne-Mette Homburg, Boris Modrau, Birgitte Forsom Sandal, Martin Faurholdt Gude, et al. 2023. “Remote Ischemic Conditioning for Acute Stroke.” JAMA 330 (13): 1236. https://doi.org/10.1001/jama.2023.16893.\n\n\nDamsbo, Andreas Gammelgaard. 2023. Agdamsbo/stRoke: stRoke 23.6.3. Zenodo. https://doi.org/10.5281/ZENODO.8013980.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas Gammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle Klingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske Johnsen, and Grethe Andersen. 2018. “Neuroregeneration and Vascular Protection by Citalopram in Acute Ischemic Stroke (TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.\n\n\nKraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen, and Grethe Andersen. 2015. “TALOS: A Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial to Test the Effects of Citalopram in Patients with Acute Stroke.” International Journal of Stroke 10 (6): 985–87. https://doi.org/10.1111/ijs.12485.\n\n\n“Tissue Plasminogen Activator for Acute Ischemic Stroke.” 1995. New England Journal of Medicine 333 (24): 1581–88. https://doi.org/10.1056/nejm199512143332401.",
@@ -239,8 +239,8 @@
     ]
   },
   {
-    "objectID": "cases/case_overlapping_measures.html",
-    "href": "cases/case_overlapping_measures.html",
+    "objectID": "cases/case_overlapping_measures.en.html",
+    "href": "cases/case_overlapping_measures.en.html",
     "title": "9  Overlapping measures",
     "section": "",
     "text": "9.1 Overlapping measures\nFor the following case study on using the FreesearchR tool, the following article will be used as an example: Damsbo et al. (2020).\nThis article includes a table of baseline characteristics, a regression table and an Euler plot of overlapping markers of poor mental health after stroke. Based on an anonymised dataset, the basics of each of these elements will be recreated in the following.",
@@ -250,8 +250,8 @@
     ]
   },
   {
-    "objectID": "cases/case_overlapping_measures.html#overlapping-measures",
-    "href": "cases/case_overlapping_measures.html#overlapping-measures",
+    "objectID": "cases/case_overlapping_measures.en.html#overlapping-measures",
+    "href": "cases/case_overlapping_measures.en.html#overlapping-measures",
     "title": "9  Overlapping measures",
     "section": "",
     "text": "9.1.1 The Euler plot\nThe Euler plot is an area-accurate plot of overlapping features. This can be used to visualise how patients suffer from several diseases or how symptoms of mental health are overlapping.\nPlotting the Euler plot is based on dichotomised categorical variables (2 levels). In the FreesearchR app, categorical variables can be created from continuous data.\n\n\n9.1.2 Load the data\nStart of by launching the FreesearchR app (click this link).\n\nGo to the “Get started” tab,\nunder “Choose your data source”, select “Local or sample data”,\nthen under “Select data source”, select “stRoke”, and\nthen under “Select a dataset”, select “trial”.\n\nThis should load the data, and you can press the “Quick overview” to preview the data classes and missing values.\nIn the section “Select variables for final import”, you can decide to set a missingness threshold and specify variables to initially include. Leaves these options at the default for now. For this exercise, just include all variables.\n\n\n9.1.3 Baseline characteristics\nSee “Baseline characteristics” on how to create a baseline characteristics table.\n\n\n9.1.4 Plotting\nNow on to the plotting. I will start by showing how to visualise the overlapping features of hypertension, diabetes and living alone:\n\nOpen the “Visuals” panel,\nselect “hypertension” as the “Response variable” to see plotting options, and\nselect “Euler diagram” and\nselect “diabetes” and “cohabitation” as “Additional variables”,\nclick “Plot”.\n\n\n9.1.4.1 Creating categorical variables\nIf you want to create new dichotomous (2-level categorical) variables from continuous data, then follow the below steps (as an exaple the “mfi_6” variable will be used):\n\nGo to “Prepare” -&gt; “Edit and create data”, the\nselect “New factor” (factor is the technical term for a categorical variable), and then\nin the pop-up window, under “Variable to cut”, select “mfi_6”,\nkeep the “Method” “fixed”, and choose “2” under “Number of breaks” to create a categorical variable with 2 levels.\nSelect the cut-off between the two levels to 12 for the “mfi_6” variable, and then\nclick “Create factor variable”.\n\nA new variable called “mfi_6_cut” is now created. Repeat the above steps for other variables you want to cut.\n\n\n9.1.4.2 (Re)ordering categorical variables\nSome scoring systems are designed to have a higher score correspond to worse outcome and others are opposite. To specify the order of the categorical levels and allow for correct plotting with the Euler plot (the plots the first level), follow these steps:\n\nWhile in the same panel (“Prepare” -&gt; “Edit and create data”), click the “Reorder factor levels”, and\norder the levels with the first level at the top (drag in the small 3x3 dot grid to the left of the level names), and then\nclick “Update factor variable”\n\n\n\n\n9.1.5 Now its time for experimentation\n\nTry create categorical variables from the age variable to create a baseline table grouped by age below or above 70.\nCreate an Euler diagram of age (below/above 70), cohabitation and male sex.\nCreate and Euler diagram of MFI, MDI (cut-off at 20) and WHO (cut-off at 17). Please note the the WHO should range from 0-100, but the included variable is scaled down by a factor of 4 and ranges 0-25.\n…\n\n\n\n\n\nDamsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette Nørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne Kaergaard Mortensen. 2020. “Predictors for Wellbeing and Characteristics of Mental Health After Stroke.” Journal of Affective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.",
@@ -261,8 +261,8 @@
     ]
   },
   {
-    "objectID": "further.html",
-    "href": "further.html",
+    "objectID": "further.en.html",
+    "href": "further.en.html",
     "title": "10  Further learning",
     "section": "",
     "text": "10.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.",
@@ -272,8 +272,8 @@
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
+    "objectID": "references.en.html",
+    "href": "references.en.html",
     "title": "References",
     "section": "",
     "text": "Berkhemer, Olvert A., Puck S. S. Fransen, Debbie Beumer, Lucie A. van\nden Berg, Hester F. Lingsma, Albert J. Yoo, Wouter J. Schonewille, et\nal. 2015. “A Randomized Trial of Intraarterial Treatment for Acute\nIschemic Stroke.” New England Journal of Medicine 372\n(1): 11–20. https://doi.org/10.1056/NEJMoa1411587.\n\n\nBlauenfeldt, Rolf Ankerlund, Niels Hjort, Jan Brink Valentin, Anne-Mette\nHomburg, Boris Modrau, Birgitte Forsom Sandal, Martin Faurholdt Gude, et\nal. 2023. “Remote Ischemic Conditioning for Acute Stroke.”\nJAMA 330 (13): 1236. https://doi.org/10.1001/jama.2023.16893.\n\n\nDamsbo, Andreas Gammelgaard. 2023. Agdamsbo/stRoke: stRoke\n23.6.3. Zenodo. https://doi.org/10.5281/ZENODO.8013980.\n\n\nDamsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette\nNørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne\nKaergaard Mortensen. 2020. “Predictors for Wellbeing and\nCharacteristics of Mental Health After Stroke.” Journal of\nAffective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas\nGammelgaard Damsbo, Boris Modrau, Sofie Amalie Simonsen, Helle\nKlingenberg Iversen, Morten Madsen, Erik Lerkevang Grove, Søren Paaske\nJohnsen, and Grethe Andersen. 2018. “Neuroregeneration and\nVascular Protection by Citalopram in Acute Ischemic Stroke\n(TALOS).” Stroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.\n\n\nKraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen,\nand Grethe Andersen. 2015. “TALOS: A Multicenter, Randomized,\nDouble-Blind, Placebo-Controlled Trial to Test the Effects of Citalopram\nin Patients with Acute Stroke.” International Journal of\nStroke 10 (6): 985–87. https://doi.org/10.1111/ijs.12485.\n\n\n“Tissue Plasminogen Activator for Acute Ischemic Stroke.”\n1995. New England Journal of Medicine 333 (24): 1581–88. https://doi.org/10.1056/nejm199512143332401.",

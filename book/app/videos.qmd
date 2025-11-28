@@ -1,0 +1,43 @@
+---
+title: "Introduction videos"
+format: html
+date: 2025-11-28
+---
+
+## Introduction videos
+
+In addition to the written introduction and instructions on the FreesearchR app collected in this book, instructional videos are also created and published. These videos are purely intended for educational purposes and are embedded below.
+
+### Intro
+
+- Introducing the FreesearchR interface
+- Explore using sample data
+- Create and export a descriptive table
+
+#### Include data from a spreadsheet
+
+- Upload and format the data
+- Evaluate parsing and missings
+- Summary statistics
+
+#### Include data from REDCap
+
+- Get the API key
+- Connect to the server
+- Choose variables
+- Select data format
+- Summary statistics
+
+### Modify data
+
+- Filter
+- Create variables
+- Modify factors
+
+### Visuals
+
+### Exporting code
+
+### Install locally
+
+
