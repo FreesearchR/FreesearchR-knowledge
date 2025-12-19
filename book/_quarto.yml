@@ -13,7 +13,7 @@ book:
     - part: "FreesearchR app documentation"
       chapters: 
         - app/app.qmd
-        # - app/videos.qmd
+        - app/videos.qmd
         - app/data_types.qmd
         - app/visuals.qmd
     - part: "Background and data considerations"

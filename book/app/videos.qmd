@@ -8,36 +8,39 @@ date: 2025-11-28
 
 In addition to the written introduction and instructions on the FreesearchR app collected in this book, instructional videos are also created and published. These videos are purely intended for educational purposes and are embedded below.
 
-### Intro
+### Loadning data
 
-- Introducing the FreesearchR interface
-- Explore using sample data
-- Create and export a descriptive table
+In this video, loading data from several sources are demonstrated.
 
-#### Include data from a spreadsheet
+This includes
 
-- Upload and format the data
-- Evaluate parsing and missings
-- Summary statistics
+- Choosing data source
+- Evaluate parsing and missing observations
+- Setting missingness threshold and selecting variables
 
-#### Include data from REDCap
 
-- Get the API key
-- Connect to the server
-- Choose variables
-- Select data format
-- Summary statistics
+{{< video https://www.youtube.com/watch?v=WZT20zmHGYw >}}
 
-### Modify data
+### Overview and filters
 
-- Filter
-- Create variables
-- Modify factors
+- Data overview
+- Browsing observations
+- Applying data filters based on data types and observations
 
-### Visuals
 
-### Exporting code
+{{< video https://www.youtube.com/watch?v=9G5chZvb-yc >}}
 
-### Install locally
+### Data evaluation
+
+- Create table of variable characteristics
+- Evaluate variable correlations
+- Review missingness
+
+
+{{< video https://www.youtube.com/watch?v=q38ILm_1vuk >}}
+
+### Future videos
+
+More videos are planned to cover other options in the app including: data modifications, visuals, exporting code and installing locally to run from R
 
 
