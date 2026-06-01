@@ -1,9 +1,11 @@
 ---
-title: "missingness"
+title: "Missingness"
 format: html
 ---
 
 ## Considering missing observations
+
+Clinical data sets are (almost guaranteed) never complete. Understanding the missingness within the data is keay to asserting which conclusions can be drawn from the collected data. The ***FreesearchR*** app includes key tools to evaluating missing observations in the data set. A more in-depth instructional video is beeing worked on. Until that is ready, have a look below for links to further reading.
 
 ### Further reading
 
