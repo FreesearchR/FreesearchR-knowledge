@@ -1,0 +1,10 @@
+---
+title: "Clean, structured data"
+format: html
+---
+
+## Clean and structured data
+
+The ***FreesearchR*** app requires clean, tidy data. This means that data should be supplied in a spread-sheet style format or collected in an electronical response form like the REDCap tool, which can export data in the required format, or directly to ***FreesearchR*** through the API-tool.
+
+If you are collecting data in a spreadsheet (like Excel, LibreOffice or similar), you have the responsibility to collect data in a structured way. This means each row represents an observation with with an ID in the first column. Each column should contain of the same type and formatted in the same way across observations. Usually this is very intuitive, but especially collecting data and time data usually creates issues, so pay special attention in that case.
