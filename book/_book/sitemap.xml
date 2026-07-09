@@ -1,107 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/index.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.509Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/index.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.969Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/qa/qa.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.511Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/qa/qa.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.970Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/app/app.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.490Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/app/app.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.960Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/app/videos.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.494Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/app/videos.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.962Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/app/data_types.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.491Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/app/data_types.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.960Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/app/visuals.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.495Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/app/visuals.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.962Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/background/missingness.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.499Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/background/missingness.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.965Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/background/presentations.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.500Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/background/messy_tidy.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.964Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/background/community.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.498Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/background/presentations.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.965Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/cases/case_trial.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.505Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/background/community.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.964Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/cases/case_overlapping_measures.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.505Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/cases/case_trial.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.967Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/further.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.508Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/cases/case_overlapping_measures.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.967Z</lastmod>
   </url>
   <url>
-    <loc>https://freesearchr.github.io/FreesearchR-knowledge/en/references.en.html</loc>
-    <lastmod>2025-12-19T10:13:37.512Z</lastmod>
+    <loc>https://knowledge.freesearchr.org/en/further.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knowledge.freesearchr.org/en/references.en.html</loc>
+    <lastmod>2026-07-09T12:29:52.971Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/index.html</loc>
-    <lastmod>2025-12-19T10:13:19.415Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.649Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/qa/qa.html</loc>
-    <lastmod>2025-12-19T10:13:19.423Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.650Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/app/app.html</loc>
-    <lastmod>2025-12-19T10:13:19.346Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.638Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/app/videos.html</loc>
-    <lastmod>2025-12-19T10:13:19.354Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.641Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/app/data_types.html</loc>
-    <lastmod>2025-12-19T10:13:19.350Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.638Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/app/visuals.html</loc>
-    <lastmod>2025-12-19T10:13:19.357Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.642Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/background/missingness.html</loc>
-    <lastmod>2025-12-19T10:13:19.372Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://freesearchr.github.io/FreesearchR-knowledge/background/messy_tidy.html</loc>
+    <lastmod>2026-07-09T12:29:40.643Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/background/presentations.html</loc>
-    <lastmod>2025-12-19T10:13:19.375Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.644Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/background/community.html</loc>
-    <lastmod>2025-12-19T10:13:19.368Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.642Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/cases/case_trial.html</loc>
-    <lastmod>2025-12-19T10:13:19.402Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.647Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/cases/case_overlapping_measures.html</loc>
-    <lastmod>2025-12-19T10:13:19.397Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.646Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/further.html</loc>
-    <lastmod>2025-12-19T10:13:19.408Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.648Z</lastmod>
   </url>
   <url>
     <loc>https://freesearchr.github.io/FreesearchR-knowledge/references.html</loc>
-    <lastmod>2025-12-19T10:13:19.432Z</lastmod>
+    <lastmod>2026-07-09T12:29:40.652Z</lastmod>
   </url>
 </urlset>

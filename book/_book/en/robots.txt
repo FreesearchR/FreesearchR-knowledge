@@ -1,1 +1,1 @@
-Sitemap: https://freesearchr.github.io/FreesearchR-knowledge/en/sitemap.xml
+Sitemap: https://knowledge.freesearchr.org/en/sitemap.xml

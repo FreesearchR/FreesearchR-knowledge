@@ -40,7 +40,7 @@ format:
       - brand
 
 execute:
-  freeze: false
+  freeze: false ## <- necessary to build correctly
   warning: false
 
 babelquarto:
