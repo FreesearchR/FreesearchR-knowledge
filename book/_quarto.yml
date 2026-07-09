@@ -19,6 +19,7 @@ book:
     - part: "Background and data considerations"
       chapters: 
         - background/missingness.qmd
+        - background/messy_tidy.qmd
         - background/presentations.qmd
         - background/community.qmd
     - part: "Case studies"
@@ -39,7 +40,8 @@ format:
       - brand
 
 execute:
-  freeze: auto
+  freeze: false
+  warning: false
 
 babelquarto:
   languagelinks: sidebar

@@ -11,6 +11,8 @@
 #   placement = c("sidebar", "navbar")
 # )
 
+# pak::pak("agdamsbo/FreesearchR")
+
 ## Rendering the multilanguage book
 # pak::pak("ropensci-review-tools/babelquarto")
 babelquarto::render_book(file.path(".", "book"),site_url = "https://knowledge.freesearchr.org/")

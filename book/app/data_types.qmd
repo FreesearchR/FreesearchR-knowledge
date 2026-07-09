@@ -1,13 +1,11 @@
 ---
 title: "Understanding data types"
-formats:
-  html:
-    execute:
-      echo: false
-      include: false
+format: html
 ---
 
-```{r}
+```{r setup}
+#| echo: false
+#| include: false
 library(FreesearchR)
 i18n_path <- system.file("translations", package = "FreesearchR")
 i18n <- shiny.i18n::Translator$new(translation_csvs_path = i18n_path)
