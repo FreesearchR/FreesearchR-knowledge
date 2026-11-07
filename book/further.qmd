@@ -8,3 +8,15 @@ format: html
 The FreesearchR project is not affiliated with the listed references below unless stated.
 
 [Exercism](https://exercism.org/) is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don't need to download anything. You can track your progress and get hints.
+
+[https://r4ds.hadley.nz/](R for Data Science (2e)) is basic curriculum for everyone using R for data science. Use it for lookup or casual reading if you're into that.
+
+[R for Health Data Science](https://argoshare.is.ed.ac.uk/healthyr_book/) provides relevant examples for data analysis in Health Research.
+
+[Healthcare R Book](https://gntem2-q.quarto.pub/healthcare-r-book/) by Thanh G Phan, Monash University, Melbourne. This is a comprehensive book on advanced data analysis in R.
+
+
+## Getting started using REDCap?
+
+REDCap is a very popular tool in many health research centers around the world. The [REDCapCAST](https://agdamsbo.github.io/REDCapCAST/) package provides great tools for migrating data to REDCap and to exporting data to **R**.
+

@@ -298,7 +298,18 @@
     "href": "further.html",
     "title": "12  Further learning",
     "section": "",
-    "text": "12.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.",
+    "text": "12.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.\nhttps://r4ds.hadley.nz/ is basic curriculum for everyone using R for data science. Use it for lookup or casual reading if you’re into that.\nR for Health Data Science provides relevant examples for data analysis in Health Research.\nHealthcare R Book by Thanh G Phan, Monash University, Melbourne. This is a comprehensive book on advanced data analysis in R.",
+    "crumbs": [
+      "Further learning",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Further learning</span>"
+    ]
+  },
+  {
+    "objectID": "further.html#getting-started-using-redcap",
+    "href": "further.html#getting-started-using-redcap",
+    "title": "12  Further learning",
+    "section": "12.2 Getting started using REDCap?",
+    "text": "12.2 Getting started using REDCap?\nREDCap is a very popular tool in many health research centers around the world. The REDCapCAST package provides great tools for migrating data to REDCap and to exporting data to R.",
     "crumbs": [
       "Further learning",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Further learning</span>"
