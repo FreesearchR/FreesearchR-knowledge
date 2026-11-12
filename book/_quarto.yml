@@ -6,11 +6,11 @@ book:
   site-url: https://freesearchr.github.io/FreesearchR-knowledge/
   title: "FreesearchR knowledge base"
   author: "Andreas Gammelgaard Damsbo"
-  date: "8/4/2025"
+  date: "12/11/2026"
   chapters:
     - index.qmd
     - qa/qa.qmd
-    - part: "FreesearchR app documentation"
+    - part: "Using the FreesearchR app"
       chapters: 
         - app/app.qmd
         - app/videos.qmd
@@ -20,16 +20,28 @@ book:
       chapters: 
         - background/missingness.qmd
         - background/messy_tidy.qmd
-        - background/presentations.qmd
-        - background/community.qmd
     - part: "Case studies"
       chapters: 
         - cases/case_trial.qmd
         - cases/case_overlapping_measures.qmd
-    - part: "Further learning"
+    - part: "Going even further with R"
       chapters: 
-        - further.qmd
+        - further/training.qmd
+        - further/study.qmd
+        - further/redcap.qmd
+    - part: "FreesearchR community"
+      chapters:
+        - background/presentations.qmd
+        - background/community.qmd
+  appendices:
     - references.qmd
+  page-footer: 
+    left: "Copyright 2026, Andreas Gammelgaard Damsbo" 
+    right: 
+      - icon: braces
+        href: https://github.com/freesearchr/
+      - icon: globe 
+        href: https://freesearchr.org/site/ 
 
 bibliography: references.bib
 

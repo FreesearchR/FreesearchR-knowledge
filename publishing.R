@@ -25,6 +25,7 @@ library(autonewsmd)
 an$generate()
 an$write(force = TRUE)}
 
+# pak::pak("usethis")
 usethis::use_github_release()
 
 ## On custom translations

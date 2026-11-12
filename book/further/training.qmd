@@ -1,0 +1,8 @@
+---
+title: "Training"
+format: html
+---
+
+Coding can be like doing sodoku's or solving riddles. And being good at is a valuable skill. Even in the age of AI's, reading, understanding and troubleshooting code is still a central skill for researchers. Also clinical researchers!
+
+On tool to use for training your coding-muscles is [Exercism](https://exercism.org/). This is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don't need to download anything. You can track your progress and get hints.

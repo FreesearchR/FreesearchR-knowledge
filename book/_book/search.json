@@ -36,7 +36,7 @@
     "section": "",
     "text": "3 Getting started with FreesearchR\nBelow is a simple walk-trough and basic descriptions on the different features of the FreesearchR app.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -47,7 +47,7 @@
     "section": "3.1 Launching",
     "text": "3.1 Launching\nThe easiest way to get started is to launch the onlie version of the app (click this link). Please be aware not to upload sensitive data in this version as data security can not be guaranteed in this online environment. The app can easily be run from R on your own computer by running the code below (read more on running locally here):\n\nrequire(\"pak\")\npak::pak(\"agdamsbo/FreesearchR\")\nlibrary(FreesearchR)\nFreesearchR::launch_FreesearchR()\n\nAs a small note, a standalone Windows app version is on the drawing board as well, but no time frame is currently available.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -58,7 +58,7 @@
     "section": "3.2 Get started",
     "text": "3.2 Get started\nOnce in the app, get started by loading your data. You have three options available for importing data: file upload, REDCap server export and local or sample data.\nAfter choosing a data source nad importing data, you can preview the basic data structure and missing observations, set a threshold to filter data by completeness and further manually specify variables to include for analyses.\n\n3.2.1 File upload\nSeveral data file formats are supported for easy import (csv, txt, xls(x), ods, rds, dta). If importing workbooks (xls(x) or ods), you are prompted to specify sheet(s) to import. If choosing multiple sheets, these are automatically merged by common variable(s), so please make sure that key/ID variables are correctly named identically.\n\n\n3.2.2 REDCap server export\nExport data directly from a REDCap server. You need to first generate an API-token (see these instruction) in REDCap. Make sure you have the necessary rights to do so.\nPlease don’t store the API-key on your device unless encrypted or in a keyring, as this may compromise data safety. Log in to your REDCap server and retrieve the token when needed.\nType the correct web address of your REDCap server.\nThe module will validate the information and you can click “Connect”.\nThis will unfold options to preview your data dictionary (the main database metadata), choose fields/variables to download as well as filtering options.\n\n\n3.2.3 Local or sample data\nWhen opening the online hosted app, you can load some sample data to try out the app. When running the app locally from R on your own computer, you will find all data frames loaded in your environment here. This extends the possible uses of this app to allow for quick and easy data insights and code generation.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -69,7 +69,7 @@
     "section": "3.3 Prepare",
     "text": "3.3 Prepare\nThis is the panel to prepare data for evaluation and analyses and get a good overview of your data, check data is classed and formatted correctly, perform simple modifications and filter data.\n\n3.3.1 Summary\nHere, the data variables can be inspected with a simple visualisation and a few key measures. Also, data filtering is available at two levels:\n\nData type filtering allows to filter by variable data type\nObservations level filtering allow to filter data by variable\n\n\n\n3.3.2 Modify\nRe-class, rename, and relabel variables. Subset data, create new variables and reorder factor levels. Also, compare the modified dataset to the original and restore the original data.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -80,7 +80,7 @@
     "section": "3.4 Evaluate",
     "text": "3.4 Evaluate\nThis panel allows for basic data evaluation.\n\n3.4.1 Characteristics\nCreate a classical baseline characteristics table with optional data stratification and comparisons.\n\n\n3.4.2 Correlation matrix\nVisualise variable correlations and get suggestions to exclude highly correlated variables.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -91,7 +91,7 @@
     "section": "3.5 Visuals",
     "text": "3.5 Visuals\nThere are a number of plotting options to visualise different aspects of the data.\nBelow are the available plot types listed.\n\n\n\n\n\n\n\n\n\n\nData type\nPlot type\nDescription\n\n\n\n\ncontinuous\nViolin plot\nA modern alternative to the classic boxplot to visualise data distribution\n\n\ncontinuous\nScatter plot\nA classic way of showing the association between to variables\n\n\ncontinuous\nBox plot\nA classic way to plot data distribution by groups\n\n\ndichotomous\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ndichotomous\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ndichotomous\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ndichotomous\nSankey plot\nA way of visualising change between groups\n\n\ndichotomous\nEuler diagram\nGenerate area-proportional Euler diagrams to display set relationships\n\n\ncategorical\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ncategorical\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ncategorical\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ncategorical\nSankey plot\nA way of visualising change between groups\n\n\n\n\n\nExport the plots directly from the sidebar with easily adjusted plot dimensions for your next publication.\nAlso copy the code to generate the plot in your own R-environment and fine tune all the small details.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -102,7 +102,7 @@
     "section": "3.6 Regression",
     "text": "3.6 Regression\nThis section is only intended for very simple explorative analyses and as a proof-of-concept for now. If you are doing complex regression analyses you should probably just write the code yourself.\nBelow are the available regression types listed.\n\n\n\n\n\n\n\n\n\n\n\nData type\nRegression model\nFunction\nStudy design\n\n\n\n\ncontinuous\nLinear regression model\nstats::lm\ncross-sectional\n\n\ndichotomous\nLogistic regression model\nstats::glm\ncross-sectional\n\n\ncategorical\nOrdinal logistic regression model\nMASS::polr\ncross-sectional\n\n\n\n\n\n\n3.6.1 Table\nGenerate simple regression models and get the results in a nice table. This will also be included in the exported report.\nThis will generate a combined table with both univariate regression model results for each included variable and a multivariate model with all variables included for explorative analyses.\n\n\n3.6.2 Plots\nPlot the coefficients from the regression models in a forest plot. Choose which model(s) to include.\n\n\n3.6.3 Model checks\nCheck model assumptions visually. Supported checks can be chosen.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -113,7 +113,7 @@
     "section": "3.7 Download",
     "text": "3.7 Download\n\n3.7.1 Report\nDownload a nice report with baseline characteristics and regression model results. Choose between MS Word or LibreOffice format.\n\n\n3.7.2 Data\nExport the modified dataset in different formats.\n\n\n3.7.3 Code\nSee all the code snippets from the different steps in your data evaluation.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>FreesearchR app intro</span>"
     ]
   },
@@ -124,7 +124,7 @@
     "section": "",
     "text": "3.1 Introduction videos\nIn addition to the written introduction and instructions on the FreesearchR app collected in this book, instructional videos are also created and published. These videos are purely intended for educational purposes and are embedded below.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction videos</span>"
     ]
   },
@@ -135,7 +135,7 @@
     "section": "",
     "text": "3.1.1 Loadning data\nIn this video, loading data from several sources are demonstrated.\nThis includes\n\nChoosing data source\nEvaluate parsing and missing observations\nSetting missingness threshold and selecting variables\n\n\n\n\n3.1.2 Overview and filters\n\nData overview\nBrowsing observations\nApplying data filters based on data types and observations\n\n\n\n\n3.1.3 Data evaluation\n\nCreate table of variable characteristics\nEvaluate variable correlations\nReview missingness\n\n\n\n\n3.1.4 Future videos\nMore videos are planned to cover other options in the app including: data modifications, visuals, exporting code and installing locally to run from R",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction videos</span>"
     ]
   },
@@ -146,7 +146,7 @@
     "section": "",
     "text": "4.1 A clinical data class\nTraditionally in R, data is identified by classes, like numeric, integer, double, logical, factor etc. These classes can be a little confusing from a clinical or operational standpoint. In the FreesearchR app, these classes has been simplified and modified to the following data types, that are assigned on a prioritised order like the following:\ndata_types() |&gt; purrr::imap(\\(.x,.i){\n  dplyr::bind_cols(\"type\"=.i,.x,.name_repair = \"unique_quiet\")\n  }) |&gt; dplyr::bind_rows() |&gt; \n  setNames(c(\"Data type\",\"Description\",\"Data classes included\")) |&gt; \n  knitr::kable()\n\n\n\n\n\n\n\n\n\nData type\nDescription\nData classes included\n\n\n\n\nempty\nVariable of all NAs\nAny class\n\n\nmonotone\nVariable with only one unique value\nAny class\n\n\ndichotomous\nVariable with only two unique values\nAny class\n\n\ncategorical\nFactor variable\nfactor (ordered or unordered)\n\n\ntext\nCharacter variable\ncharacter\n\n\ndatetime\nVariable of time, date or datetime values\nhms, Date, POSIXct and POSIXt\n\n\ncontinuous\nNumeric variable\nnumeric, integer or double\n\n\nunknown\nAnything not falling within the previous\nAny other class\nCategorising data in this way makes sense when making choices on how to evaluate and analyse data. This is used throughout the FreesearchR app to simplify data handling.",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Understanding data types</span>"
     ]
   },
@@ -157,7 +157,7 @@
     "section": "",
     "text": "5.1 Basic visualisations\nThe goal of FreesearchR is to keep things simple. Visuals can get very complicated. We provide a selection of plots, that helps visualise typical clinical and will be enough for most use cases, and for publishing to most journals.\nIf you want to go further, have a look at these sites with suggestions and sample code for data plotting:",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Options for data visuals</span>"
     ]
   },
@@ -168,7 +168,7 @@
     "section": "",
     "text": "R Charts: Extensive gallery with great plots\nR Graph gallery: Another gallery with great graphs\ngraphics principles: Easy to follow recommendations for clear visuals.\n\n\n5.1.1 Available plots\nBelow are the available plot types listed.\n\n\n\n\n\n\n\n\n\n\nData type\nPlot type\nDescription\n\n\n\n\ncontinuous\nViolin plot\nA modern alternative to the classic boxplot to visualise data distribution\n\n\ncontinuous\nScatter plot\nA classic way of showing the association between to variables\n\n\ncontinuous\nBox plot\nA classic way to plot data distribution by groups\n\n\ndichotomous\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ndichotomous\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ndichotomous\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ndichotomous\nSankey plot\nA way of visualising change between groups\n\n\ndichotomous\nEuler diagram\nGenerate area-proportional Euler diagrams to display set relationships\n\n\ncategorical\nStacked relative barplot\nCreate relative stacked barplots to show the distribution of categorical levels\n\n\ncategorical\nSide-by-side barplot\nCreate side-by-side barplot to show the distribution of categorical levels\n\n\ncategorical\nStacked horizontal bars\nA classical way of visualising the distribution of an ordinal scale like the modified Ranking Scale and known as Grotta bars\n\n\ncategorical\nSankey plot\nA way of visualising change between groups",
     "crumbs": [
-      "FreesearchR app documentation",
+      "Using the FreesearchR app",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Options for data visuals</span>"
     ]
   },
@@ -300,7 +300,7 @@
     "section": "",
     "text": "12.1 Where to go next\nThe FreesearchR project is not affiliated with the listed references below unless stated.\nExercism is a great place to start for open languages (R, Python, Julia or something more exotic), where everything can run in the browser and you don’t need to download anything. You can track your progress and get hints.\nhttps://r4ds.hadley.nz/ is basic curriculum for everyone using R for data science. Use it for lookup or casual reading if you’re into that.\nR for Health Data Science provides relevant examples for data analysis in Health Research.\nHealthcare R Book by Thanh G Phan, Monash University, Melbourne. This is a comprehensive book on advanced data analysis in R.",
     "crumbs": [
-      "Further learning",
+      "Going even further with R",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Further learning</span>"
     ]
   },
@@ -311,7 +311,7 @@
     "section": "12.2 Getting started using REDCap?",
     "text": "12.2 Getting started using REDCap?\nREDCap is a very popular tool in many health research centers around the world. The REDCapCAST package provides great tools for migrating data to REDCap and to exporting data to R.",
     "crumbs": [
-      "Further learning",
+      "Going even further with R",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Further learning</span>"
     ]
   },
@@ -322,6 +322,7 @@
     "section": "",
     "text": "Berkhemer, Olvert A., Puck S. S. Fransen, Debbie Beumer, et al. 2015.\n“A Randomized Trial of Intraarterial Treatment for Acute Ischemic\nStroke.” New England Journal of Medicine 372 (1): 11–20.\nhttps://doi.org/10.1056/NEJMoa1411587.\n\n\nBlauenfeldt, Rolf Ankerlund, Niels Hjort, Jan Brink Valentin, et al.\n2023. “Remote Ischemic Conditioning for Acute Stroke.”\nJAMA 330 (13): 1236. https://doi.org/10.1001/jama.2023.16893.\n\n\nDamsbo, Andreas Gammelgaard. 2023. Agdamsbo/stRoke: stRoke\n23.6.3. Zenodo. https://doi.org/10.5281/ZENODO.8013980.\n\n\nDamsbo, Andreas Gammelgaard, Kristian Lundsgaard Kraglund, Henriette\nNørmølle Buttenschøn, Søren Paaske Johnsen, Grethe Andersen, and Janne\nKaergaard Mortensen. 2020. “Predictors for Wellbeing and\nCharacteristics of Mental Health After Stroke.” Journal of\nAffective Disorders 264 (March): 358–64. https://doi.org/10.1016/j.jad.2019.12.032.\n\n\nKraglund, Kristian Lundsgaard, Janne Kaergaard Mortensen, Andreas\nGammelgaard Damsbo, et al. 2018. “Neuroregeneration and Vascular\nProtection by Citalopram in Acute Ischemic Stroke (TALOS).”\nStroke 49 (11): 2568–76. https://doi.org/10.1161/strokeaha.117.020067.\n\n\nKraglund, Kristian, Janne Mortensen, Erik Grove, Sren Paaske Johnsen,\nand Grethe Andersen. 2015. “TALOS: A Multicenter, Randomized,\nDouble-Blind, Placebo-Controlled Trial to Test the Effects of Citalopram\nin Patients with Acute Stroke.” International Journal of\nStroke 10 (6): 985–87. https://doi.org/10.1111/ijs.12485.\n\n\n“Tissue Plasminogen Activator for Acute Ischemic Stroke.”\n1995. New England Journal of Medicine 333 (24): 1581–88. https://doi.org/10.1056/nejm199512143332401.",
     "crumbs": [
+      "Appendices",
       "References"
     ]
   }

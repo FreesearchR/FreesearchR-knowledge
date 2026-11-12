@@ -1,0 +1,10 @@
+---
+title: "Using R for REDCap"
+format: html
+---
+
+## Getting started using REDCap?
+
+REDCap is a very popular tool in many health research centers around the world. The [REDCapCAST](https://agdamsbo.github.io/REDCapCAST/) package provides great tools for migrating data to REDCap and to exporting data to **R**.
+
+
