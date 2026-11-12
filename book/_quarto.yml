@@ -9,13 +9,13 @@ book:
   date: "12/11/2026"
   chapters:
     - index.qmd
-    - qa/qa.qmd
     - part: "Using the FreesearchR app"
       chapters: 
         - app/app.qmd
         - app/videos.qmd
         - app/data_types.qmd
         - app/visuals.qmd
+        - qa/qa.qmd
     - part: "Background and data considerations"
       chapters: 
         - background/missingness.qmd
