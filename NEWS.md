@@ -2,10 +2,14 @@
 
 # FreesearchR-knowledge NEWS
 
-## Unreleased (2026-11-07)
+## Unreleased (2026-11-12)
 
 #### New features
 
+- moving QA page to app section. Small steps towards using the
+  FreesearchR knowledgebase as a general resoure for getting started in
+  health data research
+  ([f26b942](https://github.com/FreesearchR/FreesearchR-knowledge/tree/f26b9421af0b60ba1835e89c9e34339ca3fd8ab6))
 - added more references for further reading
   ([bc20a9e](https://github.com/FreesearchR/FreesearchR-knowledge/tree/bc20a9e948121fceb29aa27ac0d43345dd60918f))
 - updated article on missingness
@@ -23,7 +27,7 @@
   ([470ba27](https://github.com/FreesearchR/FreesearchR-knowledge/tree/470ba273e3713c1aaff0574cd14b7b4a2ce24867))
 
 Full set of changes:
-[`v25.11.1...c81b678`](https://github.com/FreesearchR/FreesearchR-knowledge/compare/v25.11.1...c81b678)
+[`v25.11.1...f26b942`](https://github.com/FreesearchR/FreesearchR-knowledge/compare/v25.11.1...f26b942)
 
 ## v25.11.1 (2025-11-28)
 
